@@ -1,118 +1,117 @@
-import Image from 'next/image'
-import { Inter } from 'next/font/google'
+import { Inter } from 'next/font/google';
+import { useId } from 'react';
+import Header from 'src/components/layout/Header';
+import { NImage as Image } from 'src/components/next/Image';
+import SEO from 'src/components/seo/SEO';
+import colors from 'tailwindcss/colors';
+const inter = Inter({ subsets: ['latin'] });
 
-const inter = Inter({ subsets: ['latin'] })
-
-export default function Home() {
+function Page() {
+  const uid = useId();
   return (
     <main
-      className={`flex min-h-screen flex-col items-center justify-between p-24 ${inter.className}`}
+      className={`${inter.className} relative mx-auto min-h-screen max-w-[1920px] overflow-x-hidden bg-gray-700`}
     >
-      <div className="z-10 max-w-5xl w-full items-center justify-between font-mono text-sm lg:flex">
-        <p className="fixed left-0 top-0 flex w-full justify-center border-b border-gray-300 bg-gradient-to-b from-zinc-200 pb-6 pt-8 backdrop-blur-2xl dark:border-neutral-800 dark:bg-zinc-800/30 dark:from-inherit lg:static lg:w-auto  lg:rounded-xl lg:border lg:bg-gray-200 lg:p-4 lg:dark:bg-zinc-800/30">
-          Get started by editing&nbsp;
-          <code className="font-mono font-bold">src/pages/index.tsx</code>
-        </p>
-        <div className="fixed bottom-0 left-0 flex h-48 w-full items-end justify-center bg-gradient-to-t from-white via-white dark:from-black dark:via-black lg:static lg:h-auto lg:w-auto lg:bg-none">
-          <a
-            className="pointer-events-none flex place-items-center gap-2 p-8 lg:pointer-events-auto lg:p-0"
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            By{' '}
-            <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
-              className="dark:invert"
-              width={100}
-              height={24}
-              priority
-            />
-          </a>
+      <SEO title="Yoolife" description="Yoolife IoT Platform" />
+      <Header />
+      <section className="mx-auto min-h-screen bg-[url('/bg-section-1.png')] bg-cover bg-no-repeat">
+        <div className="relative mx-auto h-screen max-w-[1280px] p-12 text-gray-50">
+          <div className="text-[50px] font-[500]">Yoolife IoT Platform</div>
+          <div className="text-right text-[109.25px] font-[700]">
+            Personalization
+          </div>
+          <svg viewBox="0 0 10 1.1" className="h-[119.06px]">
+            <defs>
+              <linearGradient id="gradient" y1="0" y2="1">
+                <stop stopColor={colors.gray[50]} offset="0" />
+                <stop stopColor={colors.gray[300]} offset="1" />
+              </linearGradient>
+            </defs>
+            <text
+              x="3.3"
+              y="1"
+              textAnchor="middle"
+              fill="none"
+              strokeWidth="0.015"
+              stroke="url(#gradient)"
+              fontSize={1.1}
+              fontWeight={700}
+            >
+              Cá nhân hóa
+            </text>
+          </svg>
+
+          <div className="relative mt-6 flex items-end">
+            <div className="z-10 mr-6 min-w-0 max-w-[780px] flex-[1_1_auto] text-[20px]">
+              <p className="text-justify leading-[49px]">
+                Cá nhân hóa không chỉ là một xu hướng, mà còn là tâm huyết của
+                chúng tôi.
+              </p>
+              <p className="text-justify leading-[49px]">
+                Chúng tôi tin rằng mỗi người đều độc đáo, với những ước mơ, nhu
+                cầu và sở thích riêng. Đó là lý do tại sao chúng tôi tận tâm
+                mang đến cho bạn những trải nghiệm thực sự cá nhân hóa.
+              </p>
+              <p className="text-justify leading-[49px]">
+                Chúng tôi không chỉ cung cấp sản phẩm chất lượng, chúng tôi tạo
+                ra những giải pháp đáp ứng đúng những mong muốn của bạn. Với sự
+                kết hợp của dữ liệu thông minh và sáng tạo, chúng tôi đưa ra
+                những gợi ý tùy chỉnh, từ nội dung thú vị cho đến sản phẩm phù
+                hợp với gu thời trang hay nhu cầu cá nhân.
+              </p>
+            </div>
+            <div className="absolute bottom-0 right-0 z-0">
+              <Image
+                width={380}
+                height={512}
+                src={'/img-section-1.png'}
+                alt="img-section-1"
+                className="opacity-40 xl:opacity-100"
+              />
+            </div>
+          </div>
         </div>
-      </div>
 
-      <div className="relative flex place-items-center before:absolute before:h-[300px] before:w-[480px] before:-translate-x-1/2 before:rounded-full before:bg-gradient-radial before:from-white before:to-transparent before:blur-2xl before:content-[''] after:absolute after:-z-20 after:h-[180px] after:w-[240px] after:translate-x-1/3 after:bg-gradient-conic after:from-sky-200 after:via-blue-200 after:blur-2xl after:content-[''] before:dark:bg-gradient-to-br before:dark:from-transparent before:dark:to-blue-700/10 after:dark:from-sky-900 after:dark:via-[#0141ff]/40 before:lg:h-[360px]">
-        <Image
-          className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
-          priority
-        />
-      </div>
+        {/* <div className="w-full border-0 border-b-2 border-gray-50"></div> */}
 
-      <div className="mb-32 grid text-center lg:max-w-5xl lg:w-full lg:mb-0 lg:grid-cols-4 lg:text-left">
-        <a
-          href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=default-template-tw&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Docs{' '}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Find in-depth information about Next.js features and API.
-          </p>
-        </a>
+        <div className="relative mx-auto h-screen max-w-[1280px] px-12 text-gray-50">
+          <div className="relative flex h-full items-end">
+            <Image
+              width={718}
+              height={734}
+              src={'/img-section-2.png'}
+              alt="img-section-2"
+              className="absolute bottom-0 left-0 -translate-x-[120px] opacity-40 xl:opacity-100"
+            />
 
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=default-template-tw&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Learn{' '}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Learn about Next.js in an interactive course with&nbsp;quizzes!
-          </p>
-        </a>
+            <div className="absolute left-2 top-1">
+              <div className="insert-center-y-full-left-x absolute left-0 h-9 w-9 rounded-full border border-gray-50 bg-transparent">
+                <div className="insert-center absolute h-4 w-4 rounded-full bg-gray-50"></div>
+              </div>
+            </div>
 
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=default-template-tw&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Templates{' '}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Discover and deploy boilerplate example Next.js&nbsp;projects.
-          </p>
-        </a>
+            <div className="relative ml-auto pb-12">
+              <div className="mb-9 text-[20px]">
+                <p className="leading-[49px]">
+                  Yoolife là người trợ lý ảo giúp đỡ bạn trong cuộc sống hàng
+                  ngày,
+                </p>
+                <p className="leading-[49px]">
+                  mang đến cuộc sống tốt hơn, thông minh hơn, và hạnh phúc hơn!
+                </p>
+              </div>
 
-        <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template-tw&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Deploy{' '}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
-          </p>
-        </a>
-      </div>
+              <div className="absolute bottom-12 left-0 h-0.5 w-[200%] -translate-x-4 bg-gray-50">
+                <div className="insert-center-y-full-left-x absolute left-0 h-9 w-9 rounded-full border border-gray-50 bg-transparent">
+                  <div className="insert-center absolute h-4 w-4 rounded-full bg-gray-50"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
-  )
+  );
 }
+
+export default Page;
