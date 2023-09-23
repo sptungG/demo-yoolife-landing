@@ -12,8 +12,8 @@ const nextConfig = {
     siteTitle: 'Yoolife',
     siteDescription: 'Yoolife IoT Platform',
     siteKeywords: 'yoo, yoolife, iot',
-    siteUrl: 'yoolife.com',
-    siteImagePreviewUrl: '/preview.png',
+    siteUrl: 'https://yoolife-demo.vercel.app/',
+    siteImagePreviewUrl: 'preview.png',
     twitterHandle: '@yoolife',
   },
   webpack: (config) => {
