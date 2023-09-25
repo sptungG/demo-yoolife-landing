@@ -11,16 +11,9 @@
       1px 1px 2px #fff;
   }
   .insert-center {
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    @apply left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2;
   }
   .insert-center-y {
-    top: 50%;
-    transform: translateY(-50%);
-  }
-  .insert-center-y-full-left-x {
-    top: 50%;
-    transform: translate(-100%, -50%);
+    @apply top-1/2 -translate-y-1/2;
   }
 }

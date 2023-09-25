@@ -84,9 +84,20 @@ function Page() {
               className="absolute bottom-0 left-0 -translate-x-[120px] opacity-40 xl:opacity-100"
             />
 
-            <div className="absolute left-2 top-1">
-              <div className="insert-center-y-full-left-x absolute left-0 h-9 w-9 rounded-full border border-gray-50 bg-transparent">
-                <div className="insert-center absolute h-4 w-4 rounded-full bg-gray-50"></div>
+            <div className="absolute left-[calc(50%-100px)] top-[calc(50%-180px)]">
+              <div className="insert-center group absolute flex h-[105px] w-[105px] cursor-pointer flex-col items-center justify-center rounded-full border-[5px] border-gray-50 bg-transparent duration-200 ease-in hover:h-[160px] hover:w-[160px] hover:bg-gray-50/10">
+                <div className="insert-center absolute h-[40px] w-[40px] rounded-full bg-gray-50 group-hover:hidden"></div>
+                <div className="insert-center absolute h-[40px] w-[40px] scale-[1.6] rounded-full bg-gray-50/10 group-hover:hidden"></div>
+                <div className="insert-center absolute h-full w-full scale-[1.3] rounded-full border-[4px] border-gray-50/10 bg-transparent group-hover:scale-[1.2] group-hover:border-2 group-hover:border-gray-50/50"></div>
+                <div className="flex flex-col items-center justify-center opacity-0 duration-200 ease-in group-hover:opacity-100">
+                  <Image
+                    width={90}
+                    height={90}
+                    alt="Smart Fire Alarm 1.png"
+                    src="/Smart Fire Alarm 1.png"
+                  />
+                  <span className='font-[600]'>Nhắc việc</span>
+                </div>
               </div>
             </div>
 
@@ -102,7 +113,7 @@ function Page() {
               </div>
 
               <div className="absolute bottom-12 left-0 h-0.5 w-[200%] -translate-x-4 bg-gray-50">
-                <div className="insert-center-y-full-left-x absolute left-0 h-9 w-9 rounded-full border border-gray-50 bg-transparent">
+                <div className="insert-center-y absolute left-0 h-9 w-9 -translate-x-full rounded-full border border-gray-50 bg-transparent">
                   <div className="insert-center absolute h-4 w-4 rounded-full bg-gray-50"></div>
                 </div>
               </div>
