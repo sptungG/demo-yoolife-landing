@@ -1,5 +1,6 @@
 import { Inter } from 'next/font/google';
 import { useId } from 'react';
+import SectionDot1 from 'src/components/items/SectionDot1';
 import Header from 'src/components/layout/Header';
 import { NImage as Image } from 'src/components/next/Image';
 import SEO from 'src/components/seo/SEO';
@@ -8,6 +9,7 @@ const inter = Inter({ subsets: ['latin'] });
 
 function Page() {
   const uid = useId();
+
   return (
     <main
       className={`${inter.className} relative mx-auto min-h-screen max-w-[1920px] overflow-x-hidden bg-gray-700`}
@@ -74,7 +76,7 @@ function Page() {
 
         {/* <div className="w-full border-0 border-b-2 border-gray-50"></div> */}
 
-        <div className="relative mx-auto h-screen max-w-[1280px] px-12 text-gray-50">
+        <div className="relative mx-auto h-screen max-w-[1280px] px-12 text-gray-50 ">
           <div className="relative flex h-full items-end">
             <Image
               width={718}
@@ -84,21 +86,117 @@ function Page() {
               className="absolute bottom-0 left-0 -translate-x-[120px] opacity-40 xl:opacity-100"
             />
 
-            <div className="absolute left-[calc(50%-100px)] top-[calc(50%-180px)]">
-              <div className="insert-center group absolute flex h-[105px] w-[105px] cursor-pointer flex-col items-center justify-center rounded-full border-[5px] border-gray-50 bg-transparent duration-200 ease-in hover:h-[160px] hover:w-[160px] hover:bg-gray-50/10">
-                <div className="insert-center absolute h-[40px] w-[40px] rounded-full bg-gray-50 group-hover:hidden"></div>
-                <div className="insert-center absolute h-[40px] w-[40px] scale-[1.6] rounded-full bg-gray-50/10 group-hover:hidden"></div>
-                <div className="insert-center absolute h-full w-full scale-[1.3] rounded-full border-[4px] border-gray-50/10 bg-transparent group-hover:scale-[1.2] group-hover:border-2 group-hover:border-gray-50/50"></div>
-                <div className="flex flex-col items-center justify-center opacity-0 duration-200 ease-in group-hover:opacity-100">
+            <div className="absolute left-[calc(50%-200px)] top-[190px] xl:left-[calc(50%-100px)]">
+              <SectionDot1
+                classNameWrapper="h-[105px] w-[105px] hover:h-[160px] hover:w-[160px]"
+                classNameDot="h-[40px] w-[40px]"
+                image={
                   <Image
                     width={90}
                     height={90}
-                    alt="Smart Fire Alarm 1.png"
-                    src="/Smart Fire Alarm 1.png"
+                    alt={'Nhắc việc'}
+                    src={'/section-1-nhac-viec.png'}
+                    className="rounded-bl-[42px]"
                   />
-                  <span className='font-[600]'>Nhắc việc</span>
-                </div>
-              </div>
+                }
+                text={<span className="mt-1 font-[600]">Nhắc việc</span>}
+              />
+            </div>
+
+            <div className="absolute left-[calc(50%+24px)] top-[297.4px] lg:left-[calc(50%+100px)] xl:left-[calc(50%+160px)]">
+              <SectionDot1
+                classNameWrapper="h-[98px] w-[98px] hover:h-[160px] hover:w-[160px]"
+                classNameDot="h-[37px] w-[37px]"
+                image={
+                  <Image
+                    width={90}
+                    height={90}
+                    alt={'Trợ lí Ảo'}
+                    src={'/section-1-tro-li-ao.png'}
+                  />
+                }
+                text={<span className="mt-1.5 font-[600]">Trợ lí Ảo</span>}
+              />
+            </div>
+
+            <div className="absolute right-[190px] top-[144px] xl:top-[178px]">
+              <SectionDot1
+                classNameWrapper="h-[105px] w-[105px] hover:h-[174px] hover:w-[174px]"
+                classNameDot="h-[40px] w-[40px]"
+                image={
+                  <Image
+                    width={90}
+                    height={90}
+                    alt={'Tra cứu thông tin'}
+                    src={'/section-1-tra-cuu.png'}
+                  />
+                }
+                text={
+                  <span className="mt-1.5 whitespace-nowrap font-[600]">
+                    Tra cứu thông tin
+                  </span>
+                }
+              />
+            </div>
+
+            <div className="absolute right-[76px] top-[312px] xl:right-[0px]">
+              <SectionDot1
+                classNameWrapper="h-[105px] w-[105px] hover:h-[174px] hover:w-[174px]"
+                classNameDot="h-[40px] w-[40px]"
+                image={
+                  <Image
+                    width={70}
+                    height={70}
+                    alt={'Tủ đồ thông minh'}
+                    src={'/section-1-tu-do.png'}
+                  />
+                }
+                text={
+                  <span className="whitespace-nowrap pb-2 font-[600]">
+                    Tủ đồ thông minh
+                  </span>
+                }
+              />
+            </div>
+
+            <div className="absolute bottom-[366px] right-[120px]">
+              <SectionDot1
+                classNameWrapper="h-[105px] w-[105px] hover:h-[164px] hover:w-[164px]"
+                classNameDot="h-[40px] w-[40px]"
+                image={
+                  <Image
+                    width={80}
+                    height={80}
+                    alt={'Shopping Online'}
+                    src={'/section-1-shopping.png'}
+                  />
+                }
+                text={
+                  <span className="whitespace-nowrap pb-2 font-[600]">
+                    Shopping Online
+                  </span>
+                }
+              />
+            </div>
+
+            <div className="absolute bottom-[420px] left-[calc(50%-24px)] xl:left-[calc(50%+72px)]">
+              <SectionDot1
+                classNameWrapper="h-[98px] w-[98px] hover:h-[160px] hover:w-[160px]"
+                classNameDot="h-[37px] w-[37px]"
+                image={
+                  <Image
+                    width={80}
+                    height={80}
+                    alt={'Theo dõi Điện, Nước'}
+                    src={'/section-1-dien-nuoc.png'}
+                  />
+                }
+                text={
+                  <span className="whitespace-nowrap text-center font-[600] leading-tight">
+                    Theo dõi <br /> Điện, Nước
+                  </span>
+                }
+              />
             </div>
 
             <div className="relative ml-auto pb-12">

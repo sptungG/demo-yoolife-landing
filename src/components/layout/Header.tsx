@@ -6,14 +6,14 @@ function Header() {
     <header className="scroll-snap-align h-screen">
       <div className="absolute left-0 top-0 h-screen w-full">
         <video
-          src="/header-banner.mp4"
+          src="/header-banner-1.mp4"
           autoPlay
           loop
           playsInline
           muted
           className="absolute left-0 top-0 z-0 h-screen w-screen object-cover"
         ></video>
-        <div className="absolute -bottom-2 left-0 z-10 h-1/2 w-full bg-gradient-to-t from-gray-900 blur-sm"></div>
+        <div className="absolute -bottom-2 left-0 z-10 h-[10%] w-full bg-gradient-to-t from-gray-900 blur-sm"></div>
       </div>
       <div className="w-full bg-gray-800 bg-opacity-60 backdrop-blur-sm">
         <nav className="mx-auto flex h-[88px] max-w-[1280px] flex-nowrap items-center justify-between px-12">
