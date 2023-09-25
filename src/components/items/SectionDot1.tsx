@@ -1,4 +1,5 @@
-import clsx, { ClassValue } from 'clsx';
+import { ClassValue } from 'clsx';
+import { cn } from 'src/common/utils';
 
 type TSectionDot1Props = {
   image?: React.ReactNode;
@@ -15,19 +16,19 @@ function SectionDot1({
 }: TSectionDot1Props) {
   return (
     <div
-      className={clsx(
+      className={cn(
         'insert-center group absolute flex cursor-pointer flex-col items-center justify-center rounded-full border-[5px] border-gray-50 bg-transparent duration-200 ease-in hover:bg-gray-50/10',
         classNameWrapper,
       )}
     >
       <div
-        className={clsx(
+        className={cn(
           'insert-center absolute rounded-full bg-gray-50 group-hover:hidden',
           classNameDot,
         )}
       ></div>
       <div
-        className={clsx(
+        className={cn(
           'insert-center absolute scale-[1.6] rounded-full bg-gray-50/10 group-hover:hidden',
           classNameDot,
         )}
