@@ -3,7 +3,7 @@ import { LogoSvg, LogoTextSvg } from '../icons';
 
 function Header() {
   return (
-    <header className="scroll-snap-align h-screen">
+    <header className="h-screen">
       <div className="absolute left-0 top-0 h-screen w-full">
         <video
           src="/header-banner-1.mp4"
