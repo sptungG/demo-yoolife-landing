@@ -1,6 +1,10 @@
+import CamOutlinedSvg from './cam-outlined.svg';
 import EmergencySosSvg from './emergency-sos.svg';
 import LogoTextSvg from './logo-text.svg';
 import LogoSvg from './logo.svg';
+import RadioSvg from './radio-button.svg';
+import Section5ArrowRightSvg from './section-5-arrow-r.svg';
+import Section5ArrowSvg from './section-5-arrow.svg';
 import SmartAirConSvg from './smart-air-con.svg';
 import SmartConnectionSvg from './smart-connection.svg';
 import SmartCurtainSvg from './smart-curtain.svg';
@@ -16,9 +20,13 @@ import SmartVoiceSvg from './smart-voice.svg';
 import SmartWaterSvg from './smart-water.svg';
 
 export {
+  CamOutlinedSvg,
   EmergencySosSvg,
   LogoSvg,
   LogoTextSvg,
+  RadioSvg,
+  Section5ArrowRightSvg,
+  Section5ArrowSvg,
   SmartAirConSvg,
   SmartConnectionSvg,
   SmartCurtainSvg,

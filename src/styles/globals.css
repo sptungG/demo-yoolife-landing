@@ -16,4 +16,7 @@
   .inset-center-y {
     @apply top-1/2 -translate-y-1/2;
   }
+  .section-6-heading {
+    -webkit-text-stroke: 3px #ff720e;
+  }
 }

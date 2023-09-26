@@ -1,4 +1,4 @@
-import type { Config } from 'tailwindcss'
+import type { Config } from 'tailwindcss';
 
 const config: Config = {
   content: [
@@ -12,9 +12,17 @@ const config: Config = {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
         'gradient-conic':
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+        'gradient-building':
+          'linear-gradient(90deg, #25836E -0.67%, #ACC981 100.4%)',
+        'gradient-title': 'linear-gradient(0deg, #ACC981 0%, #ACC981 100%)',
+      },
+      colors: {
+        bg: '#1d1d1d',
+        green1: '#ACC981',
+        green2: '#83A537',
       },
     },
   },
-  plugins: [],
-}
-export default config
+  plugins: [require('tailwind-scrollbar')({ nocompatible: true })],
+};
+export default config;

@@ -21,7 +21,7 @@ function SectionDot2({
   return (
     <div
       className={cn(
-        'inset-center group absolute flex cursor-pointer flex-col items-center justify-center rounded-full border-[2px] border-gray-50 bg-transparent duration-200 ease-in hover:border-[6px] hover:border-gray-50/30',
+        'inset-center group absolute flex cursor-pointer flex-col items-center justify-center rounded-full border-[2px] border-gray-50 bg-transparent duration-300 ease-in hover:border-[6px] hover:border-gray-50/30',
         classNameWrapper,
       )}
     >
@@ -33,19 +33,19 @@ function SectionDot2({
       ></div>
       <div
         className={cn(
-          'inset-center absolute scale-[1.6] rounded-full bg-gray-50/10 group-hover:hidden',
+          'inset-center absolute scale-[1.6] rounded-full bg-gray-50/30 group-hover:hidden',
           classNameDot,
         )}
       ></div>
       <div
         className={cn(
-          'inset-center group-hover:border-1 absolute h-full w-full scale-[1.3] rounded-full border-[1.5px] border-gray-50/10 bg-transparent group-hover:scale-[1.2] group-hover:border-gray-50',
+          'inset-center group-hover:border-1 absolute h-full w-full scale-[1.3] rounded-full border-[1.5px] border-gray-50/20 bg-transparent group-hover:scale-[1.2] group-hover:border-gray-50',
           classNameOutline,
         )}
       ></div>
       <div
         className={cn(
-          'flex h-full w-full flex-col items-center justify-center rounded-full opacity-0 duration-200 ease-in group-hover:bg-gray-50 group-hover:opacity-100',
+          'flex h-full w-full flex-col items-center justify-center rounded-full opacity-0 duration-300 ease-in group-hover:bg-gray-50 group-hover:opacity-100',
           classNameItem,
         )}
       >
