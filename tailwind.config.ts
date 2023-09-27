@@ -20,6 +20,20 @@ const config: Config = {
         bg: '#1d1d1d',
         green1: '#ACC981',
         green2: '#83A537',
+        green3: '#91B924',
+      },
+      keyframes: {
+        gradient: {
+          '0%': {
+            'background-position': '0 50%',
+          },
+          '50%': {
+            'background-position': '100% 50%',
+          },
+          '100%': {
+            'background-position': '0 50%',
+          },
+        },
       },
     },
   },

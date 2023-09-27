@@ -1,7 +1,15 @@
+import AndroidFillSvg from './android-fill.svg';
+import AppStoreFillSvg from './app-store-fill.svg';
+import AppleLogoSvg from './apple-logo.svg';
 import CamOutlinedSvg from './cam-outlined.svg';
+import ChPlayLogoSvg from './ch-play-logo.svg';
+import EmailOutlinedSvg from './email-outlined.svg';
 import EmergencySosSvg from './emergency-sos.svg';
+import FbFillSvg from './fb-fill.svg';
 import LogoTextSvg from './logo-text.svg';
 import LogoSvg from './logo.svg';
+import MapOutlinedSvg from './map-outlined.svg';
+import PhoneOutlinedSvg from './phone-outlined.svg';
 import RadioSvg from './radio-button.svg';
 import Section5ArrowRightSvg from './section-5-arrow-r.svg';
 import Section5ArrowSvg from './section-5-arrow.svg';
@@ -18,12 +26,24 @@ import SmartMediaSvg from './smart-media.svg';
 import SmartSecuritySvg from './smart-security.svg';
 import SmartVoiceSvg from './smart-voice.svg';
 import SmartWaterSvg from './smart-water.svg';
+import TiktokFillSvg from './tiktok-fill.svg';
+import TwitterFillSvg from './twitter-fill.svg';
+import YooLogoSvg from './yoo-logo.svg';
+import YooSvg from './yoo.svg';
 
 export {
+  AndroidFillSvg,
+  AppStoreFillSvg,
+  AppleLogoSvg,
   CamOutlinedSvg,
+  ChPlayLogoSvg,
+  EmailOutlinedSvg,
   EmergencySosSvg,
+  FbFillSvg,
   LogoSvg,
   LogoTextSvg,
+  MapOutlinedSvg,
+  PhoneOutlinedSvg,
   RadioSvg,
   Section5ArrowRightSvg,
   Section5ArrowSvg,
@@ -40,4 +60,8 @@ export {
   SmartSecuritySvg,
   SmartVoiceSvg,
   SmartWaterSvg,
+  TiktokFillSvg,
+  TwitterFillSvg,
+  YooLogoSvg,
+  YooSvg,
 };

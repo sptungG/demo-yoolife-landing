@@ -1,7 +1,15 @@
-import { Montserrat } from 'next/font/google';
+import { Montserrat, Montserrat_Alternates } from 'next/font/google';
 import { useId } from 'react';
 import {
+  AndroidFillSvg,
+  AppStoreFillSvg,
+  AppleLogoSvg,
+  ChPlayLogoSvg,
+  EmailOutlinedSvg,
   EmergencySosSvg,
+  FbFillSvg,
+  MapOutlinedSvg,
+  PhoneOutlinedSvg,
   RadioSvg,
   Section5ArrowRightSvg,
   Section5ArrowSvg,
@@ -17,6 +25,10 @@ import {
   SmartMediaSvg,
   SmartSecuritySvg,
   SmartVoiceSvg,
+  TiktokFillSvg,
+  TwitterFillSvg,
+  YooLogoSvg,
+  YooSvg,
 } from 'src/components/icons';
 import CamOutlinedTitle from 'src/components/items/CamOutlinedTitle';
 import SectionCard5 from 'src/components/items/SectionCard5';
@@ -26,6 +38,10 @@ import Header from 'src/components/layout/Header';
 import { NImage as Image } from 'src/components/next/Image';
 import SEO from 'src/components/seo/SEO';
 const inter = Montserrat({ subsets: ['latin'] });
+const MontserratAlternates = Montserrat_Alternates({
+  subsets: ['latin'],
+  weight: ['700', '800'],
+});
 
 function Page() {
   const uid = useId();
@@ -1083,8 +1099,357 @@ function Page() {
               ))}
             </div>
           </div>
+          <div className="relative">
+            <Image
+              src="/section-6-sc.png"
+              alt="/section-6-sc.png"
+              width={1200}
+              height={0}
+              quality={100}
+              priority
+            />
+            <div className="text-green3 absolute left-4 top-[calc(50%-210px)] text-[26px] font-[600]">
+              Giao tiếp thông minh
+            </div>
+            <div className="text-green3 absolute left-4 top-[calc(50%+322px)] text-[26px] font-[600]">
+              Booking Khu Vui chơi
+            </div>
+            <div className="text-green3 absolute right-6 top-[calc(50%-42px)] text-[26px] font-[600]">
+              Cộng đồng <br /> thông minh
+            </div>
+            <div className="text-green3 absolute right-[100px] top-[calc(50%+352px)] text-[26px] font-[600]">
+              An ninh thông minh
+            </div>
+          </div>
+
+          <div className="mx-auto max-w-[1280px] px-12">
+            <div className="text-green3 border-green3 flex h-12 items-center justify-center rounded-full border text-center align-bottom text-[26px] font-[600] leading-none">
+              YooLife nhà kiến tạo Cộng đồng thông minh - Xã hội Văn minh
+            </div>
+          </div>
         </div>
       </section>
+
+      <section className="mx-auto mt-[100px] min-h-screen">
+        <div className="z-0 mx-auto max-w-[1280px] px-12">
+          <h3 className="section-7-heading overflow-hidden whitespace-nowrap text-center font-sans text-[180px] font-[700] tracking-normal text-gray-50">
+            Sm<span className="font-mono">a</span>rt Soci
+            <span className="font-mono">a</span>l
+          </h3>
+        </div>
+        <div className="relative -z-10 -mt-[18%]">
+          <Image
+            width={1920}
+            height={0}
+            src="/section-7-top.png"
+            alt="section-7-top"
+            quality={100}
+            priority
+            className="-z-10"
+          />
+        </div>
+        <div className="mx-auto mt-10 max-w-[1280px] px-12">
+          <p className="mb-10 text-justify text-[20px] font-[300] leading-[2] text-gray-50">
+            Chúng tôi định nghĩa mô hình xã hội thông minh dựa trên 3 trụ cột
+            chính gồm: Kinh tế số – Xã hội số – Cuộc sống số. Ý thức sâu sắc về
+            xu hướng chuyển đổi số đang lan rộng trong mọi mặt đời sống, quan
+            sát những thay đổi nhanh chóng cuộc sống của người dân trong kỷ
+            nguyên IOT, iMAXTEK tiên phong dẫn lối xây dựng cuộc sống thông minh
+            lấy con người làm trung tâm và theo đuổi triết lý thiết kế số hóa
+            nhu cầu theo các cấp độ từ cá nhân – gia đình – cộng đồng – xã hội.
+          </p>
+          <Image
+            width={1280}
+            height={0}
+            src="/section-7-main.png"
+            alt="section-7-main"
+            quality={100}
+            priority
+            className="-z-10 mb-10"
+          />
+          <p className="text-justify text-[20px] font-[300] leading-[2] text-gray-50">
+            Xã hội thông minh – Smart Social, xét theo nghĩa hẹp, là một xã hội
+            ứng dụng Tự động hóa, CNTT nhằm số hóa các trụ cột như kinh tế số,
+            xã hội số và cuộc sống số. Mô hình Smart Social cho phép kết nối con
+            người – con người, con người – thiết bị và thiết bị – thiết bị nhằm
+            kiện toàn các lĩnh vực như SmartHome, SmartBuilding, SmartCity và
+            Smart Social. Lấy con người làm trung tâm, số hóa và kết nối con
+            người với hầu hết các dịch vụ tiện ích ngoài xã hội, đồng thời nâng
+            cao hiệu quả quản lý, vận hành các cơ sở hạ tầng trọng yếu, tòa nhà,
+            khu đô thị nhằm kiến tạo nên không gian sống hoàn hảo, tiện nghi,
+            đẳng cấp, đặt nền tảng cho một cuộc sống lý tưởng: “công nghệ – tiện
+            nghi – xanh – thông minh”
+          </p>
+        </div>
+        <div className="px-12">
+          <Image
+            width={1920}
+            height={0}
+            src="/section-7-bottom.png"
+            alt="section-7-bottom"
+            quality={100}
+            priority
+            className="-z-10 mb-10"
+          />
+        </div>
+      </section>
+
+      <section className="mx-auto min-h-screen">
+        <div className="mx-auto mb-[76px] max-w-[1280px] px-12 text-gray-50">
+          <h3
+            className={`pl-[64px] text-[103px] font-[700] leading-none ${MontserratAlternates.className}`}
+          >
+            Download
+          </h3>
+          <h3
+            className={`text-[133px] font-[800] leading-none ${MontserratAlternates.className}`}
+          >
+            The YooLife App
+          </h3>
+        </div>
+        <div className="mx-auto flex w-full max-w-[1280px] justify-between px-12">
+          <div className="relative -ml-[100%]">
+            <Image
+              src="/section-8-app.png"
+              alt=""
+              width={896}
+              height={0}
+              className="-z-10 translate-x-full"
+            />
+          </div>
+          <div className="z-0 max-w-[580px] self-center">
+            <div className="mb-10 whitespace-nowrap text-[53px] font-[700] text-gray-50">
+              Tải ứng dụng YooLife
+            </div>
+            <p className="mb-8 text-justify text-[20px] font-[300] leading-[2] text-gray-50">
+              Để tải ứng dụng, bạn truy cập vào một trong hai đường dẫn dưới đây
+              tùy theo thiết bị di động của mình sử dụng hệ điều hành là Android
+              hay iOS.
+            </p>
+            <div className="mb-6 flex items-center">
+              <div className="flex flex-col gap-12">
+                <a
+                  href="http://"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center rounded-lg bg-gray-50 pb-3 pl-2 pr-4 pt-3"
+                >
+                  <AppleLogoSvg className="-mt-1 h-[46.67px] w-[46.67px] flex-shrink-0" />
+                  <div className="ml-3 flex flex-col justify-center">
+                    <p className="mb-2 leading-none">Download on the</p>
+                    <p className="text-[32px] font-[700] leading-none">
+                      App Store
+                    </p>
+                  </div>
+                </a>
+                <a
+                  href="http://"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center rounded-lg bg-gray-50 pb-3 pl-2 pr-4 pt-3"
+                >
+                  <ChPlayLogoSvg className="-mt-1 h-[46.67px] w-[46.67px] flex-shrink-0" />
+                  <div className="ml-3 flex flex-col justify-center">
+                    <p className="mb-2 leading-none">GET IT ON</p>
+                    <p className="whitespace-nowrap text-[32px] font-[700] leading-none">
+                      Google Play
+                    </p>
+                  </div>
+                </a>
+              </div>
+              <div className="ml-11">
+                <Image
+                  src="/section-8-qr.png"
+                  alt=""
+                  width={256}
+                  height={0}
+                  quality={100}
+                  priority
+                />
+              </div>
+            </div>
+            <div className="text-[29px] font-[700] uppercase text-gray-50">
+              Mở máy ảnh của bạn lên và quét
+            </div>
+            <div className="text-justify text-[33.4px] font-[700] uppercase text-gray-50">
+              Open your Camera and Scan
+            </div>
+          </div>
+        </div>
+
+        <div className="mx-auto max-w-[1280px] px-12">
+          <p className="text-center text-[20px] font-[300] leading-[2] text-gray-50">
+            Hãy cài ngay ứng dụng YooLife để trải nghiệm tương lai thông minh
+            ngay trong căn nhà của bạn! Với YooLife, bạn sẽ có cơ hội trải
+            nghiệm một cuộc sống đa thông minh và tiện ích hơn bao giờ hết. Tự
+            động hóa hệ thống trong nhà, kết nối với cộng đồng thông minh, và
+            tận hưởng những tiện ích hiện đại mà ứng dụng mang lại. Khám phá
+            ngay YooLife và hòa mình vào không gian sống thông minh, tiện lợi và
+            thú vị!
+          </p>
+        </div>
+      </section>
+
+      <footer className="relative mx-auto mt-[200px] flex min-h-screen flex-col">
+        <Image src="/footer-bg.png" alt="" fill className="-z-10" />
+        <div className="from-bg absolute -left-1 -right-1 -top-2 -z-10 h-[100%] bg-gradient-to-b blur-sm"></div>
+
+        <div className="mx-auto mb-14 mt-auto max-w-[1280px] px-12">
+          <h3 className="mb-[18px] text-center text-[45px] font-[700] leading-[65px] text-gray-50">
+            Liên hệ với chúng tôi
+          </h3>
+          <p className="mb-11 text-center text-[30px] font-[300] text-gray-50">
+            Tham gia ngay bây giờ để ưu đãi đặc biệt và được tư vấn một cách tốt
+            nhất!
+          </p>
+          <form className="flex w-full justify-center gap-6 px-12">
+            <input
+              type="email"
+              defaultValue=""
+              className="focus:ring-green2 h-12 flex-auto rounded-full bg-gray-300/10 px-6 text-gray-50 outline-none backdrop-blur-sm placeholder:text-[20px] hover:ring-1 focus:ring-1"
+              placeholder="Nhập Email của bạn..."
+            />
+            <button className="bg-gradient-building h-12 rounded-full px-12 text-[20px] font-[500] text-gray-900">
+              Gửi Email
+            </button>
+          </form>
+        </div>
+        <div className="mx-auto max-w-[1280px] px-12">
+          <div className="mb-4">
+            <div className="inline-flex flex-nowrap items-end">
+              <YooLogoSvg className="h-[76px] w-[76px]" />
+              <div className="flex flex-nowrap items-baseline">
+                <span className="flex items-center justify-center">
+                  <YooSvg height={33} />
+                </span>
+                <span className="logo-text-gradient-green ml-0 text-[36px] font-[700]">
+                  life
+                </span>
+              </div>
+            </div>
+          </div>
+
+          <div className="flex gap-8">
+            <div className="">
+              <div className="mb-9 text-[22px] font-[700] text-gray-50">
+                Công ty Cổ phẩn YooTek Holdings
+              </div>
+              <div className="mb-5 text-[22px] font-[600] text-gray-50">
+                Liên hệ với chúng tôi
+              </div>
+              <div className="mb-4 flex cursor-pointer items-center text-gray-50 hover:underline">
+                <EmailOutlinedSvg className="h-[18px] w-[18px]" />
+                <a href="mailto:info@imaxhitech.com" className="ml-2.5">
+                  <b>Email:</b> info@imaxhitech.com
+                </a>
+              </div>
+              <div className="mb-4 flex cursor-pointer items-center text-gray-50 hover:underline">
+                <PhoneOutlinedSvg className="h-[18px] w-[18px]" />
+                <a href="tel:+842473011968" className="ml-2.5">
+                  <b>Số điện thoại:</b> +84 24 7301 1968
+                </a>
+              </div>
+              <div className="mb-4 flex items-center text-gray-50">
+                <MapOutlinedSvg className="h-[18px] w-[18px]" />
+                <div className="ml-2.5 font-[700]">Văn phòng:</div>
+              </div>
+              <div className="flex flex-col gap-6">
+                <p className="cursor-pointer text-gray-50 hover:underline">
+                  <b>Trụ sở chính:</b> Tầng 3, Tòa Audi, Số 8 Phạm Hùng, Mễ Trì,
+                  Nam Từ Liêm, Hà Nội.
+                </p>
+                <p className="cursor-pointer text-gray-50 hover:underline">
+                  <b>Showroom:</b> D02-L38, An Vuong Villa block, Duong Noi, Ha
+                  Dong, Hà Nội.
+                </p>
+                <p className="cursor-pointer text-gray-50 hover:underline">
+                  <b>HCM Office:</b> Block A1, 312 Lạc Long Quân, Quận 11, Thành
+                  phố Hồ Chí Minh.
+                </p>
+                <p className="cursor-pointer text-gray-50 hover:underline">
+                  <b>Trung tâm R&D:</b> 5/167 Herring Rd, Macquarie Park, NSW
+                  2113.
+                </p>
+              </div>
+            </div>
+
+            <div className="">
+              <div className="mb-9 text-[22px] font-[700] text-gray-50">
+                Ứng dụng
+              </div>
+              <div className="mb-10">
+                <div className="mb-4 flex cursor-pointer items-center text-gray-50 hover:underline">
+                  <AppStoreFillSvg className="h-6 w-6" />
+                  <a
+                    href="http://"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="ml-2.5 text-gray-50"
+                  >
+                    YooLife (IOS)
+                  </a>
+                </div>
+                <div className="flex cursor-pointer items-center text-gray-50 hover:underline">
+                  <AndroidFillSvg className="h-6 w-6" />
+                  <a
+                    href="http://"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="ml-2.5 text-gray-50"
+                  >
+                    YooLife (Android)
+                  </a>
+                </div>
+              </div>
+
+              <div className="mb-6 text-[22px] font-[600] text-gray-50">
+                Kết nối với YooTek
+              </div>
+              <div className="flex flex-nowrap gap-6 text-gray-50">
+                <a
+                  href="http://"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex cursor-pointer items-center justify-center hover:text-blue-600"
+                >
+                  <FbFillSvg className="h-6 w-6" />
+                </a>
+                <a
+                  href="http://"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex cursor-pointer items-center justify-center hover:text-gray-400"
+                >
+                  <TiktokFillSvg className="h-6 w-6" />
+                </a>
+                <a
+                  href="http://"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex cursor-pointer items-center justify-center hover:text-blue-300"
+                >
+                  <TwitterFillSvg className="h-6 w-6" />
+                </a>
+              </div>
+            </div>
+
+            <div className="">
+              <Image
+                src="/online-gov-vn.png"
+                alt=""
+                width={249}
+                height={0}
+                quality={100}
+              />
+            </div>
+          </div>
+
+          <div className="flex items-center justify-center pb-[44px] pt-[56px] text-[20px] text-gray-50">
+            Copyright © {new Date().getFullYear()} YooTek Holdings. All Right
+            Reserved
+          </div>
+        </div>
+      </footer>
     </main>
   );
 }

@@ -15,7 +15,7 @@ function Header() {
         ></video>
         <div className="from-bg absolute -bottom-2 -left-1 -right-1 z-10 h-[10%] bg-gradient-to-t blur-sm"></div>
       </div>
-      <div className="w-full bg-gray-800 bg-opacity-60 backdrop-blur-sm">
+      <div className="bg-bg/90 fixed left-0 top-0 z-20 w-full bg-opacity-60 backdrop-blur-sm">
         <nav className="mx-auto flex h-[88px] max-w-[1280px] flex-nowrap items-center justify-between px-12">
           <div className="flex flex-nowrap items-center lg:flex-1">
             <LogoSvg height={40} />
