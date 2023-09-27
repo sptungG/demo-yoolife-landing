@@ -145,7 +145,7 @@ function Section6() {
         </div>
 
         <div className="mx-auto max-w-[1280px] px-12">
-          <div className="flex h-12 items-center justify-center rounded-full border border-green3 text-center align-bottom text-[1.5vw] font-[600] leading-none text-green3">
+          <div className="min-h-12 flex items-center justify-center rounded-full border border-green3 px-6 py-3 text-center align-bottom text-[1.5rem] font-[600] leading-[1.4] text-green3">
             Yoolife nhà kiến tạo Cộng đồng thông minh - Xã hội Văn minh
           </div>
         </div>
