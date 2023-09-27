@@ -107,7 +107,8 @@ function Page() {
               src={'/img-section-2.png'}
               alt="img-section-2"
               className="absolute bottom-0 left-0 -translate-x-[120px] opacity-40 xl:opacity-100"
-              quality={1}
+              quality={100}
+              priority
             />
 
             <div className="absolute left-[calc(50%-200px)] top-[190px] xl:left-[calc(50%-100px)]">
@@ -253,7 +254,8 @@ function Page() {
               src={'/section-2-tl.png'}
               alt="section-2-tl"
               className="-z-10 -scale-x-100"
-              quality={1}
+              quality={100}
+              priority
             />
           </div>
           <div className="relative z-10 mx-auto max-w-[1280px] px-12">
@@ -264,7 +266,8 @@ function Page() {
                 src={'/section-2-home-iot-1.png'}
                 alt="section-2-home-iot-1"
                 className="absolute right-[19px] top-[24px] opacity-100 group-hover:opacity-0"
-                quality={1}
+                quality={100}
+                priority
               />
               <Image
                 width={647}
@@ -272,7 +275,8 @@ function Page() {
                 src={'/section-2-home-iot-2.png'}
                 alt="section-2-home-iot-2"
                 className="absolute right-0 top-0 opacity-0 group-hover:opacity-100"
-                quality={1}
+                quality={100}
+                priority
               />
             </div>
           </div>
@@ -319,7 +323,8 @@ function Page() {
               src={'/section-3-main.png'}
               alt="section-3-main"
               className=""
-              quality={1}
+              quality={100}
+              priority
             />
 
             <Image
@@ -560,7 +565,8 @@ function Page() {
             height={1432}
             src="/section-4-top.png"
             alt="section-4-top"
-            quality={1}
+            quality={100}
+            priority
           />
           <Image
             width={539}
@@ -678,7 +684,8 @@ function Page() {
             src="/section-5-combined.png"
             alt="section-5-combined"
             className="object-cover"
-            quality={1}
+            quality={100}
+            priority
             // className="-translate-y-[200px]"
           />
         </div>
@@ -832,7 +839,8 @@ function Page() {
               alt=""
               width={1200}
               height={0}
-              quality={1}
+              quality={100}
+              priority
             />
             <p className="absolute left-0 top-[80px] w-fit max-w-[280px] text-justify text-[19px] font-[300] leading-[25px] text-gray-50">
               Giám sát 24/7 định mức tiêu thụ + Cảnh báo Ai khi vượt ngưỡng tiêu
@@ -927,7 +935,8 @@ function Page() {
               height={0}
               src="/section-5-monitors.png"
               alt="section-5-monitors"
-              quality={1}
+              quality={100}
+              priority
               className="-z-10"
             />
           </div>
@@ -978,7 +987,8 @@ function Page() {
             height={0}
             src="/section-6-top.png"
             alt="section-6-top"
-            quality={1}
+            quality={100}
+            priority
           />
           <div className="absolute bottom-0 left-1/2 -translate-x-1/2 text-center">
             <h3 className="section-6-heading overflow-hidden whitespace-nowrap font-sans text-[280px] font-[700] tracking-normal text-gray-50/20">
@@ -1004,7 +1014,8 @@ function Page() {
             alt=""
             width={1280}
             height={0}
-            quality={1}
+            quality={100}
+            priority
             className="mx-auto"
           />
         </div>
