@@ -1,4 +1,5 @@
 import Head from 'next/head';
+import { useRouter } from 'next/router';
 import Script from 'next/script';
 
 type TSEOProps = {
@@ -7,6 +8,7 @@ type TSEOProps = {
   keywords?: string;
 };
 const SEO = ({ title, description, keywords }: TSEOProps) => {
+  const router = useRouter();
   // Cuztomize Meta Properties
   // Can create extra props and pass as arguments like title in case you want to change for each page.
   const metaDescription = description
@@ -43,26 +45,32 @@ const SEO = ({ title, description, keywords }: TSEOProps) => {
         <link
           rel="apple-touch-icon"
           sizes="180x180"
-          href="/apple-touch-icon.png"
+          href={`${router.basePath}/apple-touch-icon.png`}
         />
         <link
           rel="icon"
           type="image/png"
           sizes="32x32"
-          href="/favicon-32x32.png"
+          href={`${router.basePath}/favicon-32x32.png`}
         />
         <link
           rel="icon"
           type="image/png"
           sizes="16x16"
-          href="/favicon-16x16.png"
+          href={`${router.basePath}/favicon-16x16.png`}
         />
+        <link
+          rel="icon"
+          href={`${router.basePath}/favicon.ico`}
+          key="favicon"
+        />
+
         <link rel="manifest" href="/site.webmanifest" />
         <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5" />
         {/* Title */}
         <title>{title}</title>
 
-        <meta name="msapplication-TileColor" content="#da532c" />
+        <meta name="msapplication-TileColor" content="#25836E" />
         <meta name="theme-color" content="#ffffff" />
         <link rel="alternate" type="application/rss+xml" href="/rss.xml" />
         <link rel="sitemap" type="application/xml" href="/sitemap.xml" />

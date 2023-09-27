@@ -3,39 +3,43 @@ import { LogoSvg, LogoTextSvg } from '../icons';
 
 function Header() {
   return (
-    <header className="h-screen">
-      <div className="absolute left-0 top-0 h-screen w-full">
+    <header className="2xl:h-screen">
+      <div className="relative left-0 top-0 h-fit w-full pt-[88px] xl:pt-0 2xl:h-screen">
         <video
           src="/header-banner-1.mp4"
           autoPlay
           loop
           playsInline
           muted
-          className="absolute left-0 top-0 z-0 h-screen w-screen object-cover"
+          className="z-0 h-full w-full object-contain"
         ></video>
-        <div className="from-bg absolute -bottom-2 -left-1 -right-1 z-10 h-[10%] bg-gradient-to-t blur-sm"></div>
+        {/* <div className="absolute -bottom-0 -left-1 -right-1 z-10 h-[20px] bg-gradient-to-t from-bg blur-sm"></div> */}
       </div>
-      <div className="bg-bg/90 fixed left-0 top-0 z-20 w-full bg-opacity-60 backdrop-blur-sm">
+      <div className="fixed left-0 top-0 z-20 w-full bg-bg/90 bg-opacity-60 backdrop-blur-sm">
         <nav className="mx-auto flex h-[88px] max-w-[1280px] flex-nowrap items-center justify-between px-12">
-          <div className="flex flex-nowrap items-center lg:flex-1">
+          <div className="flex flex-nowrap items-center xl:flex-1">
             <LogoSvg height={40} />
             <LogoTextSvg height={26} />
           </div>
 
-          <div className="hidden justify-between text-[20px] lg:flex lg:flex-1 lg:gap-x-[56px]">
-            <div className="whitespace-nowrap font-[600] text-gray-50">
+          <div className="hidden justify-between text-[20px] xl:flex xl:flex-1 xl:gap-x-[56px]">
+            <div className="cursor-pointer whitespace-nowrap font-[600] text-gray-50 hover:underline">
               Trang chủ
             </div>
-            <div className="whitespace-nowrap font-[600] text-gray-50">
+            <div className="cursor-pointer whitespace-nowrap font-[600] text-gray-50 hover:underline">
               Giải pháp
             </div>
-            <div className="whitespace-nowrap font-[600] text-gray-50">
+            <div className="cursor-pointer whitespace-nowrap font-[600] text-gray-50 hover:underline">
               Liên hệ
             </div>
           </div>
 
-          <div className="hidden w-1 lg:flex lg:flex-1 lg:justify-end"></div>
-          <div className="flex lg:hidden">
+          <div className="w-1 xl:flex xl:flex-1 xl:justify-end">
+            {/* <button className="flex h-12 items-center justify-center rounded-full border border-gray-300/50 px-12 text-gray-50">
+              Ngôn ngữ
+            </button> */}
+          </div>
+          <div className="flex xl:hidden">
             <button
               type="button"
               className="inline-flex items-center justify-center rounded-md p-2.5 text-gray-50"

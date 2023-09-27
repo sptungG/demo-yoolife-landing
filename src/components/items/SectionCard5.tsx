@@ -10,7 +10,7 @@ type TSectionCard5Props = {
 const SectionCard5 = ({ imageUrl = '', sub, title }: TSectionCard5Props) => {
   const uid = useId();
   return (
-    <div className="flex w-[180px] flex-col">
+    <div className="flex w-[180px] flex-shrink-0 snap-start snap-always flex-col">
       <div className="relative mb-2.5 h-[114px] w-full">
         <Image
           fill
@@ -21,10 +21,10 @@ const SectionCard5 = ({ imageUrl = '', sub, title }: TSectionCard5Props) => {
           priority
         />
       </div>
-      <div className="text-green1 mb-2.5 flex h-[30px] items-center justify-center overflow-hidden whitespace-nowrap rounded-full border-[1.5px] px-2 text-base font-[600]">
+      <div className="mb-2.5 flex h-[30px] items-center justify-center overflow-hidden whitespace-nowrap rounded-full border-[1.5px] px-2 text-base font-[600] text-green1">
         {title}
       </div>
-      <div className="text-center text-[15px] font-[600] text-gray-50">
+      <div className="text-center text-[0.9375rem] font-[600] text-gray-50">
         {sub}
       </div>
     </div>

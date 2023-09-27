@@ -32,7 +32,7 @@ const CamOutlinedTitle = ({
       <div className="absolute left-[8px] top-[11px] text-sm text-gray-50">
         {sub}
       </div>
-      <div className="text-green1 absolute left-[64px] top-[29px] text-[20px] font-[600]">
+      <div className="absolute left-[64px] top-[29px] text-[1.25rem] font-[600] text-green1">
         {title}
       </div>
     </div>
