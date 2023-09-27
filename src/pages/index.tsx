@@ -25,7 +25,6 @@ import SectionDot2 from 'src/components/items/SectionDot2';
 import Header from 'src/components/layout/Header';
 import { NImage as Image } from 'src/components/next/Image';
 import SEO from 'src/components/seo/SEO';
-import colors from 'tailwindcss/colors';
 const inter = Montserrat({ subsets: ['latin'] });
 
 function Page() {
@@ -45,26 +44,12 @@ function Page() {
           <div className="text-right text-[109.25px] font-[700]">
             Personalization
           </div>
-          <svg viewBox="0 0 10 1.1" className="h-[119.06px]">
-            <defs>
-              <linearGradient id="gradient" y1="0" y2="1">
-                <stop stopColor={colors.gray[50]} offset="0" />
-                <stop stopColor={colors.gray[300]} offset="1" />
-              </linearGradient>
-            </defs>
-            <text
-              x="3.3"
-              y="1"
-              textAnchor="middle"
-              fill="none"
-              strokeWidth="0.015"
-              stroke="url(#gradient)"
-              fontSize={1.1}
-              fontWeight={700}
-            >
-              Cá nhân hóa
-            </text>
-          </svg>
+
+          <h3 className="section-1-heading overflow-hidden whitespace-nowrap font-sans text-[136px] font-[700] tracking-normal text-gray-50/5">
+            C<span className="font-mono">á</span> nh
+            <span className="font-mono">â</span>n hó
+            <span className="font-mono">a</span>
+          </h3>
 
           <div className="relative mt-6 flex items-end">
             <div className="z-10 mr-6 min-w-0 max-w-[780px] flex-[1_1_auto] text-[20px]">
