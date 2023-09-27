@@ -45,7 +45,7 @@ function Page() {
             Personalization
           </div>
 
-          <h3 className="section-1-heading overflow-hidden whitespace-nowrap font-sans text-[136px] font-[700] tracking-normal text-gray-50/5">
+          <h3 className="section-1-heading overflow-hidden whitespace-nowrap font-sans text-[138px] font-[700] tracking-normal text-gray-50/5">
             C<span className="font-mono">á</span> nh
             <span className="font-mono">â</span>n hó
             <span className="font-mono">a</span>
@@ -975,21 +975,22 @@ function Page() {
             quality={100}
             priority
           />
-          <div className="absolute bottom-0 left-1/2 -translate-x-1/2 text-center">
-            <h3 className="section-6-heading overflow-hidden whitespace-nowrap font-sans text-[280px] font-[700] tracking-normal text-gray-50/20">
-              Sm<span className="font-mono">a</span>rt City
-            </h3>
-            <div className="mx-auto max-w-[1280px] px-12">
-              <p className="text-justify text-[20px] font-[300] leading-[2] text-gray-50">
-                Công nghệ số ngày càng phát triển, nhu cầu kết nối không chỉ
-                dừng lại ở thiết bị – thiết bị, thiết bị – con người mà nó còn
-                lan rộng nhằm kết nối cư dân – cư dân, cư dân – ban quản trị, cư
-                dân trong các tòa nhà thông minh, khu đô thị thông minh. Người
-                dân dần trở thành trung tâm trong các hoạt động số hóa. Chung
-                tay xây dựng cộng đồng số – cộng đồng thông minh, kiến tạo xã
-                hội thông minh là một trong các kim chỉ nam của YooLife.
-              </p>
-            </div>
+        </div>
+
+        <div className="-mt-[34%] text-center">
+          <h3 className="section-6-heading overflow-hidden whitespace-nowrap font-sans text-[280px] font-[700] tracking-normal text-gray-50/20">
+            Sm<span className="font-mono">a</span>rt City
+          </h3>
+          <div className="mx-auto max-w-[1280px] px-12">
+            <p className="text-justify text-[20px] font-[300] leading-[2] text-gray-50">
+              Công nghệ số ngày càng phát triển, nhu cầu kết nối không chỉ dừng
+              lại ở thiết bị – thiết bị, thiết bị – con người mà nó còn lan rộng
+              nhằm kết nối cư dân – cư dân, cư dân – ban quản trị, cư dân trong
+              các tòa nhà thông minh, khu đô thị thông minh. Người dân dần trở
+              thành trung tâm trong các hoạt động số hóa. Chung tay xây dựng
+              cộng đồng số – cộng đồng thông minh, kiến tạo xã hội thông minh là
+              một trong các kim chỉ nam của YooLife.
+            </p>
           </div>
         </div>
 

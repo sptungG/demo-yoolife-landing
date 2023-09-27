@@ -17,7 +17,8 @@ const SectionCard5 = ({ imageUrl = '', sub, title }: TSectionCard5Props) => {
           src={imageUrl}
           alt={''}
           className="object-contain"
-          quality={1}
+          quality={100}
+          priority
         />
       </div>
       <div className="text-green1 mb-2.5 flex h-[30px] items-center justify-center overflow-hidden whitespace-nowrap rounded-full border-[1.5px] px-2 text-base font-[600]">
