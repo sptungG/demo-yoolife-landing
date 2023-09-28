@@ -15,11 +15,11 @@ const CamOutlinedTitle = ({
 }: TCamOutlinedTitleProps) => {
   return (
     <div className={cn('relative', classNameWrapper)}>
-      <CamOutlinedSvg className="h-[80px] w-[200px]" />
+      <CamOutlinedSvg className="h-[5rem] w-[12.5rem]" />
       <svg
         xmlns="http://www.w3.org/2000/svg"
-        width="116"
-        height="74"
+        width="7.25rem"
+        height="4.625rem"
         viewBox="0 0 116 74"
         fill="none"
         className="absolute left-0 top-0 -z-10"
@@ -29,10 +29,10 @@ const CamOutlinedTitle = ({
           fill="#323232"
         />
       </svg>
-      <div className="absolute left-[8px] top-[11px] text-sm text-gray-50">
+      <div className="absolute left-[0.5rem] top-[0.6875rem] text-sm text-gray-50">
         {sub}
       </div>
-      <div className="absolute left-[64px] top-[29px] text-[1.25rem] font-[600] text-green1">
+      <div className="absolute left-[4rem] top-[1.8125rem] text-[1.25rem] font-[600] text-green1">
         {title}
       </div>
     </div>

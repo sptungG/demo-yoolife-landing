@@ -10,8 +10,8 @@ type TSectionCard5Props = {
 const SectionCard5 = ({ imageUrl = '', sub, title }: TSectionCard5Props) => {
   const uid = useId();
   return (
-    <div className="flex w-[180px] flex-shrink-0 snap-start snap-always flex-col">
-      <div className="relative mb-2.5 h-[114px] w-full">
+    <div className="flex w-[11.25rem] flex-shrink-0 snap-start snap-always flex-col">
+      <div className="relative mb-2.5 h-[7.125rem] w-full">
         <Image
           fill
           src={imageUrl}

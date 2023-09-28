@@ -15,9 +15,7 @@ const SEO = ({ title, description, keywords }: TSEOProps) => {
     ? description
     : process.env.siteDescription;
   const metaKeywords = keywords ? keywords : process.env.siteKeywords;
-  const siteURL = process.env.siteUrl;
   const twitterHandle = process.env.twitterHandle;
-  const imagePreview = `${siteURL}/${process.env.siteImagePreviewUrl}`;
 
   return (
     <>
@@ -32,9 +30,17 @@ const SEO = ({ title, description, keywords }: TSEOProps) => {
         <meta name="twitter:creator" content={twitterHandle} key="twhandle" />
 
         {/* {Open Graph} */}
-        <meta property="og:url" content={siteURL} key="ogurl" />
-        <meta property="og:image" content={imagePreview} key="ogimage" />
-        <meta property="og:site_name" content={siteURL} key="ogsitename" />
+        <meta property="og:url" content={router.basePath} key="ogurl" />
+        <meta
+          property="og:image"
+          content={`${router.basePath}/${process.env.siteImagePreviewUrl}`}
+          key="ogimage"
+        />
+        <meta
+          property="og:site_name"
+          content={router.basePath}
+          key="ogsitename"
+        />
         <meta property="og:title" content={title} key="ogtitle" />
         <meta
           property="og:description"

@@ -40,17 +40,19 @@ function Section5() {
         </div>
       </div>
 
-      <div className="relative -mt-11 xl:-mt-[220px]">
-        <Image
-          width={1920}
-          height={0}
-          src="/section-5-combined.png"
-          alt="section-5-combined"
-          className="object-cover"
-          quality={100}
-          priority
-          // className="-translate-y-[200px]"
-        />
+      <div className="relative -mt-11 max-w-full overflow-x-auto scrollbar-thin xl:-mt-[220px]">
+        <div className="relative mx-auto min-w-[1020px] max-w-[1620px] xl:w-auto">
+          <Image
+            width={1920}
+            height={0}
+            src="/section-5-combined.png"
+            alt="section-5-combined"
+            className="object-cover"
+            quality={100}
+            priority
+            // className="-translate-y-[200px]"
+          />
+        </div>
       </div>
 
       <div className="relative mx-auto max-w-[1280px] px-12">
@@ -195,27 +197,60 @@ function Section5() {
           trường sống hiệu quả và bền vững.
         </p>
         <div className="relative mx-auto">
-          <Image
-            src="/section-5-combined-2.png"
-            alt=""
-            width={1200}
-            height={0}
-            quality={100}
-            priority
-          />
-          {/* 1184px 635.414px */}
-          <p className="absolute left-0 top-[calc(100%*80/635.414)] w-fit max-w-[calc(100%*280/1184)] text-[1.1875rem] font-[300] leading-[25px] text-gray-50 xl:text-justify">
-            Giám sát 24/7 định mức tiêu thụ + Cảnh báo Ai khi vượt ngưỡng tiêu
-            thụ.
-          </p>
-          <p className="absolute right-0 top-[calc(100%*150/635.414)] max-w-[calc(100%*300/1184)] -translate-y-1/2 text-[1.1875rem] font-[300] leading-[25px] text-gray-50 xl:text-justify">
-            Tối ưu chi phí tiêu thụ Điện, nước hàng tháng dựa trên báo cáo thống
-            kê hàng tháng.
-          </p>
-          <p className="absolute left-0 top-[calc(100%*400/635.414)] max-w-[calc(100%*220/1184)] text-[1.1875rem] font-[300] leading-[25px] text-gray-50 xl:text-justify">
-            Thống kê chi tiết chỉ số Điện năng, Chi phí hóa đơn, Cài đặt định
-            mức.
-          </p>
+          <div className="relative">
+            <Image
+              src="/section-5-combined-2.png"
+              alt=""
+              width={1200}
+              height={0}
+              quality={100}
+              priority
+            />
+            {/* 1184px 635.414px */}
+            <div className="absolute left-0 top-[calc(100%*72/635.414)] lg:hidden">
+              <div className="flex h-6 w-6 items-center justify-center rounded-full bg-gray-50 font-[600]">
+                1
+              </div>
+            </div>
+            <div className="absolute right-0 top-[calc(100%*200/635.414)] lg:hidden">
+              <div className="flex h-6 w-6 items-center justify-center rounded-full bg-gray-50 font-[600]">
+                2
+              </div>
+            </div>
+            <div className="absolute left-0 top-[calc(100%*404/635.414)] lg:hidden">
+              <div className="flex h-6 w-6 items-center justify-center rounded-full bg-gray-50 font-[600]">
+                3
+              </div>
+            </div>
+          </div>
+
+          <div className="static left-0 top-[calc(100%*72/635.414)] mb-6 flex lg:absolute lg:mb-0 lg:max-w-[calc(100%*280/1184)]">
+            <div className="mr-2 mt-0.5 flex h-6 w-6 flex-shrink-0 items-center justify-center self-baseline rounded-full bg-gray-50 font-[600] lg:hidden">
+              1
+            </div>
+            <p className="text-justify text-[1.1875rem] font-[300] leading-[1.5] text-gray-50">
+              Giám sát 24/7 định mức tiêu thụ + Cảnh báo Ai khi vượt ngưỡng tiêu
+              thụ.
+            </p>
+          </div>
+          <div className="static right-0 top-[calc(100%*150/635.414)] mb-6 flex lg:absolute lg:mb-0 lg:max-w-[calc(100%*300/1184)]">
+            <div className="mr-2 mt-0.5 flex h-6 w-6 flex-shrink-0 items-center justify-center self-baseline rounded-full bg-gray-50 font-[600] lg:hidden">
+              2
+            </div>
+            <p className="text-justify text-[1.1875rem] font-[300] leading-[1.5] text-gray-50">
+              Tối ưu chi phí tiêu thụ Điện, nước hàng tháng dựa trên báo cáo
+              thống kê hàng tháng.
+            </p>
+          </div>
+          <div className="static left-0 top-[calc(100%*400/635.414)] mb-6 flex lg:absolute lg:mb-0 lg:max-w-[calc(100%*200/1184)]">
+            <div className="mr-2 mt-0.5 flex h-6 w-6 flex-shrink-0 items-center justify-center self-baseline rounded-full bg-gray-50 font-[600] lg:hidden">
+              3
+            </div>
+            <p className="text-justify text-[1.1875rem] font-[300] leading-[1.5] text-gray-50">
+              Thống kê chi tiết chỉ số Điện năng, Chi phí hóa đơn, Cài đặt định
+              mức.
+            </p>
+          </div>
         </div>
       </div>
 
@@ -268,7 +303,7 @@ function Section5() {
             ].map((item, index) => (
               <div
                 key={JSON.stringify(item) + index}
-                className="w-[373.336px] flex-shrink-0 snap-center snap-always"
+                className="w-[23.3rem] flex-shrink-0 snap-center snap-always"
               >
                 <div className="mb-4 text-center text-[1.25rem] font-[600] leading-none text-gray-50">
                   Dự án {index + 1}
@@ -276,7 +311,7 @@ function Section5() {
                 <div className="mb-6 text-center text-[1.375rem] font-[300] leading-none text-gray-50">
                   {item.title}
                 </div>
-                <div className="relative h-[224px] flex-shrink-0 rounded-2xl border border-gray-50 p-4">
+                <div className="relative h-[14rem] flex-shrink-0 rounded-2xl border border-gray-50 p-4">
                   <div className="relative h-full w-full overflow-hidden rounded-lg">
                     <Image
                       src={item.imageUrl}
@@ -289,7 +324,7 @@ function Section5() {
               </div>
             ))}
           </div>
-          <div className="z-0 -mb-16 flex justify-center">
+          <div className="z-0 -mb-16 hidden justify-center lg:flex">
             <Section5ArrowRightSvg className="z-0 h-[100%] w-[calc(100%*320/1240)] flex-shrink-0 -scale-x-100" />
             <Section5ArrowSvg className="z-0 mx-[100px] h-[100%] max-h-[135px] w-[calc(100%*12/1240)] flex-shrink-0" />
             <Section5ArrowRightSvg className="z-0 h-[100%] w-[calc(100%*320/1240)] flex-shrink-0" />

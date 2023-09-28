@@ -16,18 +16,18 @@ function Section2() {
           />
         </div>
         <div className="relative z-10 mx-auto max-w-[1280px] px-12">
-          <div className="group absolute right-0 top-[24px] h-[289px] w-[647px] xl:translate-x-[40%]">
+          <div className="group absolute right-0 top-[24px] h-[calc(60vw*289/647)] w-[60vw] xl:translate-x-[18%]">
             <Image
               width={620}
               height={289}
               src={'/section-2-home-iot-1.png'}
               alt="section-2-home-iot-1"
-              className="absolute right-[19px] top-[24px] opacity-100 group-hover:opacity-0"
+              className="absolute right-[1px] top-[5px] opacity-100 group-hover:opacity-0 sm:right-[2px] sm:top-[10px] lg:right-[18px] lg:top-[22px]"
               quality={100}
               priority
             />
             <Image
-              width={647}
+              width={646}
               height={289}
               src={'/section-2-home-iot-2.png'}
               alt="section-2-home-iot-2"

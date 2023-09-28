@@ -25,14 +25,14 @@ function Section4() {
           height={1582}
           src="/section-4-top-bg.png"
           alt="section-4-top-bg"
-          className="absolute left-0 top-0"
+          className="absolute left-0 top-0 object-cover"
         />
 
         <div className="absolute left-[16px] top-[100px] flex flex-col items-end">
-          <h3 className="text-shadow-white text-[11.075rem] font-[700] leading-[1] text-bg">
+          <h3 className="text-shadow-white text-[16vw] font-[700] leading-[1] text-bg sm:text-[15vw] min-[888px]:text-[11.075rem]">
             Smart
           </h3>
-          <h3 className="-mt-12 bg-gradient-building bg-clip-text text-[12.5rem] font-[700] leading-[1.2] text-transparent">
+          <h3 className="-mt-2 bg-gradient-building bg-clip-text text-[18.5vw] font-[700] leading-[1.2] text-transparent sm:text-[17.5vw] min-[888px]:-mt-12 min-[888px]:text-[12.5rem]">
             Building
           </h3>
         </div>
