@@ -84,17 +84,17 @@ function Section8() {
               />
             </div>
           </div>
-          <div className="whitespace-nowrap text-center text-[1.8125rem] font-[700] uppercase text-gray-50 xl:text-justify">
+          <div className="whitespace-nowrap text-center text-[1.8125rem] font-[700] uppercase text-gray-50 max-sm:text-[14.5px] xl:text-justify">
             Mở máy ảnh của bạn lên và quét
           </div>
-          <div className="whitespace-nowrap text-center text-[2.0875rem] font-[700] uppercase text-gray-50 xl:text-justify">
+          <div className="whitespace-nowrap text-center text-[2.0875rem] font-[700] uppercase text-gray-50 max-sm:text-[16.7px] xl:text-justify">
             Open your Camera and Scan
           </div>
         </div>
       </div>
 
       <div className="mx-auto mt-6 max-w-[1280px] px-12">
-        <p className="text-center text-[1.25rem] font-[300] leading-[2] text-gray-50">
+        <p className="text-justify text-[1.25rem] font-[300] leading-[2] text-gray-50 md:text-center">
           Hãy cài ngay ứng dụng Yoolife để trải nghiệm tương lai thông minh ngay
           trong căn nhà của bạn! Với Yoolife, bạn sẽ có cơ hội trải nghiệm một
           cuộc sống đa thông minh và tiện ích hơn bao giờ hết. Tự động hóa hệ
