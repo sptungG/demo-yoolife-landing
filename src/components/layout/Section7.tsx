@@ -4,7 +4,7 @@ function Section7() {
   return (
     <section className="mx-auto mt-[100px] min-h-screen">
       <div className="z-0 mx-auto max-w-[1280px] px-12">
-        <h3 className="section-7-heading overflow-hidden whitespace-nowrap text-center font-sans text-[14vw] font-[700] tracking-normal text-gray-50">
+        <h3 className="section-7-heading overflow-hidden whitespace-nowrap text-center font-sans text-[13.5vw] font-[700] tracking-normal text-gray-50 sm:text-[14vw] xl:text-[12vw]">
           Sm<span className="font-mono">a</span>rt Soci
           <span className="font-mono">a</span>l
         </h3>

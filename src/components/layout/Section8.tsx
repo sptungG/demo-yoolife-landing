@@ -84,10 +84,10 @@ function Section8() {
               />
             </div>
           </div>
-          <div className="text-center text-[1.8125rem] font-[700] uppercase text-gray-50 xl:text-justify">
+          <div className="whitespace-nowrap text-center text-[1.8125rem] font-[700] uppercase text-gray-50 xl:text-justify">
             Mở máy ảnh của bạn lên và quét
           </div>
-          <div className="text-center text-[2.0875rem] font-[700] uppercase text-gray-50 xl:text-justify">
+          <div className="whitespace-nowrap text-center text-[2.0875rem] font-[700] uppercase text-gray-50 xl:text-justify">
             Open your Camera and Scan
           </div>
         </div>

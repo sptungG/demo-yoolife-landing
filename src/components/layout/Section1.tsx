@@ -56,7 +56,7 @@ function Section1() {
             height={734}
             src={'/img-section-2.png'}
             alt="img-section-2"
-            className="absolute bottom-0 left-0 origin-bottom-left -translate-x-[7.5rem] scale-100 object-cover opacity-40 backdrop-blur-md sm:scale-75 xl:scale-100 xl:opacity-100"
+            className="absolute bottom-0 left-0 origin-bottom-left -translate-x-[7.5rem] scale-[1.33] object-cover opacity-40 backdrop-blur-md sm:scale-75 xl:scale-100 xl:opacity-100"
             quality={100}
             priority
           />
