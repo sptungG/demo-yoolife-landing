@@ -31,7 +31,7 @@ function Section3() {
 
       <div className="relative z-0">
         <div className="relative z-10 max-w-full overflow-x-auto px-6 scrollbar-thin min-[1258px]:px-0">
-          <div className="relative mx-auto min-w-[908px] max-w-[1058px] xl:w-[1258px]">
+          <div className="relative mx-auto min-w-[908px] max-xl:max-w-[1058px] xl:w-[1258px]">
             <Image
               width={1338 - 80}
               height={0}
@@ -254,7 +254,7 @@ function Section3() {
             </div>
           </div>
         </div>
-        <div className="inset-center absolute z-0 mx-auto min-w-[908px] max-w-[1058px] xl:w-[1258px]">
+        <div className="inset-center absolute z-0 mx-auto min-w-[908px] max-xl:max-w-[1058px] xl:w-[1258px]">
           <div className="inset-center absolute z-0 h-[calc(100%+32px)] w-[calc(100%+32px)] bg-gray-50/10"></div>
           <Image
             width={1338 - 80}
