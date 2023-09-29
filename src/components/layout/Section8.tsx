@@ -29,6 +29,8 @@ function Section8() {
             width={896}
             height={0}
             className="-z-10 xl:translate-x-full"
+            quality={90}
+            priority
           />
         </div>
         <div className="z-0 max-w-[580px] self-center">
