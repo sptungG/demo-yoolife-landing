@@ -10,7 +10,7 @@ function Section6() {
           height={0}
           src="/section-6-top.png"
           alt="section-6-top"
-          quality={100}
+          quality={90}
           priority
         />
       </div>
@@ -131,21 +131,21 @@ function Section6() {
             alt="/section-6-sc.png"
             width={1200}
             height={0}
-            quality={100}
+            quality={90}
             priority
             className="object-cover"
           />
           {/* 1184px 1043.82px 521.91 */}
-          <div className="absolute left-4 top-[calc(100%*311.91/1043.82)] text-[1.75vw] font-[600] text-green3">
+          <div className="absolute left-4 top-[calc(100%*311.91/1043.82)] text-[1.5vw] font-[600] text-green3">
             Giao tiếp thông minh
           </div>
-          <div className="absolute left-4 top-[calc(100%*843.91/1043.82)] text-[1.75vw] font-[600] text-green3">
+          <div className="absolute left-4 top-[calc(100%*843.91/1043.82)] text-[1.5vw] font-[600] text-green3">
             Booking Khu Vui chơi
           </div>
-          <div className="absolute right-6 top-[calc(100%*479.91/1043.82)] text-[1.75vw] font-[600] text-green3">
+          <div className="absolute right-6 top-[calc(100%*479.91/1043.82)] text-[1.5vw] font-[600] text-green3">
             Cộng đồng <br /> thông minh
           </div>
-          <div className="absolute right-[calc(100%*100/1184)] top-[calc(100%*873.91/1043.82)] text-[1.75vw] font-[600] text-green3">
+          <div className="absolute right-[calc(100%*100/1184)] top-[calc(100%*873.91/1043.82)] text-[1.5vw] font-[600] text-green3">
             An ninh thông minh
           </div>
           <ImageModal

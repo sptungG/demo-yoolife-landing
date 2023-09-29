@@ -1,4 +1,6 @@
+import { animateScroll } from 'react-scroll';
 import { LogoSvg, LogoTextSvg, MenuBarSvg } from '../icons';
+import HLink from '../items/HLink';
 
 function Header() {
   return (
@@ -16,21 +18,40 @@ function Header() {
       </div>
       <div className="fixed left-0 top-0 z-20 w-full bg-bg/90 bg-opacity-60 backdrop-blur-sm">
         <nav className="mx-auto flex h-[88px] max-w-[1280px] flex-nowrap items-center justify-between px-12">
-          <div className="flex flex-nowrap items-center xl:flex-1">
+          <div
+            className="flex flex-nowrap items-center xl:flex-1"
+            onClick={() => {
+              animateScroll.scrollToTop();
+            }}
+          >
             <LogoSvg height={40} />
             <LogoTextSvg height={26} />
           </div>
 
           <div className="hidden justify-between text-[20px] xl:flex xl:flex-1 xl:gap-x-[56px]">
-            <div className="cursor-pointer whitespace-nowrap font-[600] text-gray-50 hover:underline">
+            <div
+              className="cursor-pointer whitespace-nowrap font-[600] text-gray-50 hover:underline"
+              onClick={() => {
+                animateScroll.scrollToTop();
+              }}
+            >
               Trang chủ
             </div>
-            <div className="cursor-pointer whitespace-nowrap font-[600] text-gray-50 hover:underline">
+            <HLink
+              to="Yoolife AIoT Platform"
+              classNameActive="underline text-green3"
+              className="cursor-pointer whitespace-nowrap font-[600] text-gray-50 hover:underline"
+            >
               Giải pháp
-            </div>
-            <div className="cursor-pointer whitespace-nowrap font-[600] text-gray-50 hover:underline">
+            </HLink>
+            <HLink
+              offset={-176}
+              to="contact-us"
+              classNameActive="underline text-green3"
+              className="cursor-pointer whitespace-nowrap font-[600] text-gray-50 hover:underline"
+            >
               Liên hệ
-            </div>
+            </HLink>
           </div>
 
           <div className="w-1 xl:flex xl:flex-1 xl:justify-end">

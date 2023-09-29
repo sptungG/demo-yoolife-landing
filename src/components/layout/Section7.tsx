@@ -16,7 +16,7 @@ function Section7() {
           height={0}
           src="/section-7-top.png"
           alt="section-7-top"
-          quality={100}
+          quality={90}
           priority
           className="-z-10"
         />

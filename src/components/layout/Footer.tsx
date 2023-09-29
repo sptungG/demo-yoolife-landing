@@ -1,3 +1,4 @@
+import { Element } from 'react-scroll';
 import {
   AndroidFillSvg,
   AppStoreFillSvg,
@@ -26,7 +27,10 @@ function Footer() {
         <div className="absolute -top-2 left-0 right-0 -z-10 h-[100%] scale-110 bg-gradient-to-b from-bg from-5% via-bg/50 via-90% to-bg/20 to-100% blur-sm"></div>
       </div>
 
-      <div className="mx-auto mb-14 mt-auto max-w-[1280px] -translate-y-[32px] px-12">
+      <Element
+        name="contact-us"
+        className="mx-auto mb-14 mt-auto max-w-[1280px] -translate-y-[32px] px-12"
+      >
         <h3 className="mb-[18px] text-center text-[2.8125rem] font-[700] leading-[1.2] text-gray-50">
           Liên hệ với chúng tôi
         </h3>
@@ -45,7 +49,7 @@ function Footer() {
             Gửi Email
           </button>
         </form>
-      </div>
+      </Element>
 
       <div className="mx-auto max-w-[1280px]">
         <div className="mb-4">

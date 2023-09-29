@@ -1,8 +1,13 @@
+import { Element } from 'react-scroll';
 import { NImage as Image } from 'src/components/next/Image';
 
 function Section2() {
   return (
-    <section className="mx-auto min-h-screen">
+    <Element
+      name="Yoolife AIoT Platform"
+      as="section"
+      className="mx-auto min-h-screen"
+    >
       <div className="relative flex justify-between pt-[80px]">
         <div className="relative">
           <Image
@@ -58,7 +63,7 @@ function Section2() {
           tiên tiến vào cuộc sống mỗi người dân.
         </p>
       </div>
-    </section>
+    </Element>
   );
 }
 
