@@ -49,20 +49,20 @@ function Section1() {
         </div>
       </div>
 
-      <div className="relative mx-auto h-[90vh] max-w-[1280px] px-12 text-gray-50 sm:h-[80vh] lg:h-screen ">
+      <div className="relative mx-auto h-[100vh] max-w-[1280px] px-12 text-gray-50 sm:h-[80vh] lg:h-screen">
         <div className="relative flex h-full items-end">
           <Image
             width={718}
             height={734}
             src={'/img-section-2.png'}
             alt="img-section-2"
-            className="absolute bottom-0 left-0 origin-bottom-left -translate-x-[7.5rem] scale-[1.33] object-cover opacity-40 backdrop-blur-md sm:scale-75 xl:scale-100 xl:opacity-100"
+            className="absolute bottom-0 left-0 origin-bottom-left -translate-x-[7.5rem] scale-[1] object-cover opacity-40 max-sm:backdrop-blur-md sm:scale-75 xl:scale-100 xl:opacity-100"
             quality={100}
             priority
           />
           {/* 1184 950  592 */}
 
-          <div className="absolute left-[calc(100%*492/1184)] top-[calc(100%*190/950)] max-sm:-translate-x-[80px]">
+          <div className="absolute left-[calc(100%*492/1184)] top-[calc(100%*190/950)] scale-90 max-sm:-translate-x-[80px] md:scale-100">
             <SectionDot1
               classNameWrapper="h-[6.5625rem] w-[6.5625rem] hover:h-[10rem] hover:w-[10rem]"
               classNameDot="h-[2.5rem] w-[2.5rem]"
@@ -79,7 +79,7 @@ function Section1() {
             />
           </div>
 
-          <div className="absolute left-[calc(100%*752/1184)] top-[calc(100%*297.4/950)] max-sm:-translate-x-[64px] max-sm:translate-y-[40px]">
+          <div className="absolute left-[calc(100%*752/1184)] top-[calc(100%*297.4/950)] scale-90 max-sm:-translate-x-[64px] max-sm:translate-y-[40px] md:scale-100">
             <SectionDot1
               classNameWrapper="h-[6.125rem] w-[6.125rem] hover:h-[10rem] hover:w-[10rem]"
               classNameDot="h-[2.3125rem] w-[2.3125rem]"
@@ -96,7 +96,7 @@ function Section1() {
             />
           </div>
 
-          <div className="absolute right-[calc(100%*190/1184)] top-[calc(100%*178/950)]">
+          <div className="absolute right-[calc(100%*190/1184)] top-[calc(100%*178/950)] scale-90 md:scale-100">
             <SectionDot1
               classNameWrapper="h-[6.5625rem] w-[6.5625rem] hover:h-[10.875rem] hover:w-[10.875rem]"
               classNameDot="h-[2.5rem] w-[2.5rem]"
@@ -117,7 +117,7 @@ function Section1() {
             />
           </div>
 
-          <div className="absolute right-[calc(100%*76/1184)] top-[calc(100%*312/950)] max-sm:-translate-x-[20px] max-sm:translate-y-[30px]">
+          <div className="absolute right-[calc(100%*76/1184)] top-[calc(100%*312/950)] scale-90 max-sm:-translate-x-[20px] max-sm:translate-y-[30px] md:scale-100">
             <SectionDot1
               classNameWrapper="h-[6.5625rem] w-[6.5625rem] hover:h-[10.875rem] hover:w-[10.875rem]"
               classNameDot="h-[2.5rem] w-[2.5rem]"
@@ -138,7 +138,7 @@ function Section1() {
             />
           </div>
 
-          <div className="absolute bottom-[calc(100%*366/950)] right-[calc(100%*120/1184)] max-sm:-translate-y-[20px]">
+          <div className="absolute bottom-[calc(100%*366/950)] right-[calc(100%*120/1184)] scale-90 max-sm:-translate-y-[20px] md:scale-100">
             <SectionDot1
               classNameWrapper="h-[6.5625rem] w-[6.5625rem] hover:h-[10.25rem] hover:w-[10.25rem]"
               classNameDot="h-[2.5rem] w-[2.5rem]"
@@ -159,7 +159,7 @@ function Section1() {
             />
           </div>
 
-          <div className="absolute bottom-[calc(100%*420/950)] left-[calc(100%*664/1184)] max-sm:-translate-x-[30px]">
+          <div className="absolute bottom-[calc(100%*420/950)] left-[calc(100%*664/1184)] scale-90 max-sm:-translate-x-[30px] md:scale-100">
             <SectionDot1
               classNameWrapper="h-[6.125rem] w-[6.125rem] hover:h-[10rem] hover:w-[10rem]"
               classNameDot="h-[2.3125rem] w-[2.3125rem]"
@@ -181,13 +181,11 @@ function Section1() {
           </div>
 
           <div className="relative ml-auto pb-12">
-            <div className="mb-9 translate-x-8 text-[1.25rem] sm:translate-x-0">
+            <div className="mb-9 max-w-[552px] translate-x-8 text-[1.25rem] sm:translate-x-0">
               <p className="leading-[3.0625rem]">
                 Yoolife là người trợ lý ảo giúp đỡ bạn trong cuộc sống hàng
-                ngày,
-              </p>
-              <p className="leading-[3.0625rem]">
-                mang đến cuộc sống tốt hơn, thông minh hơn, và hạnh phúc hơn!
+                ngày, mang đến cuộc sống tốt hơn, thông minh hơn, và hạnh phúc
+                hơn!
               </p>
             </div>
 

@@ -1,6 +1,8 @@
 import AndroidFillSvg from './android-fill.svg';
 import AppStoreFillSvg from './app-store-fill.svg';
 import AppleLogoSvg from './apple-logo.svg';
+import ArrowTRBoxSvg from './arrow-tr-box.svg';
+import ArrowsPointOutSvg from './arrows-point-out.svg';
 import CamOutlinedSvg from './cam-outlined.svg';
 import ChPlayLogoSvg from './ch-play-logo.svg';
 import EmailOutlinedSvg from './email-outlined.svg';
@@ -35,6 +37,8 @@ export {
   AndroidFillSvg,
   AppStoreFillSvg,
   AppleLogoSvg,
+  ArrowTRBoxSvg,
+  ArrowsPointOutSvg,
   CamOutlinedSvg,
   ChPlayLogoSvg,
   EmailOutlinedSvg,

@@ -1,4 +1,5 @@
 import { NImage as Image } from 'src/components/next/Image';
+import ImageModal from '../items/ImageModal';
 
 function Section6() {
   return (
@@ -124,31 +125,61 @@ function Section6() {
           </div>
         </div>
 
-        <div className="max-w-full overflow-x-auto px-4 scrollbar-thin">
-          <div className="relative mx-auto w-[860px] flex-shrink-0 xl:w-[1190px]">
-            <Image
-              src="/section-6-sc.png"
-              alt="/section-6-sc.png"
-              width={1200}
-              height={0}
-              quality={100}
-              priority
-              className="object-cover"
-            />
-            {/* 1184px 1043.82px 521.91 */}
-            <div className="absolute left-4 top-[calc(100%*311.91/1043.82)] text-[1.25rem] font-[600] text-green3">
-              Giao tiếp thông minh
-            </div>
-            <div className="absolute left-4 top-[calc(100%*843.91/1043.82)] text-[1.25rem] font-[600] text-green3">
-              Booking Khu Vui chơi
-            </div>
-            <div className="absolute right-6 top-[calc(100%*479.91/1043.82)] text-[1.25rem] font-[600] text-green3">
-              Cộng đồng <br /> thông minh
-            </div>
-            <div className="absolute right-[calc(100%*100/1184)] top-[calc(100%*873.91/1043.82)] text-[1.25rem] font-[600] text-green3">
-              An ninh thông minh
-            </div>
+        <div className="relative mx-auto mb-10 w-full px-4">
+          <Image
+            src="/section-6-sc.png"
+            alt="/section-6-sc.png"
+            width={1200}
+            height={0}
+            quality={100}
+            priority
+            className="object-cover"
+          />
+          {/* 1184px 1043.82px 521.91 */}
+          <div className="absolute left-4 top-[calc(100%*311.91/1043.82)] text-[1.75vw] font-[600] text-green3">
+            Giao tiếp thông minh
           </div>
+          <div className="absolute left-4 top-[calc(100%*843.91/1043.82)] text-[1.75vw] font-[600] text-green3">
+            Booking Khu Vui chơi
+          </div>
+          <div className="absolute right-6 top-[calc(100%*479.91/1043.82)] text-[1.75vw] font-[600] text-green3">
+            Cộng đồng <br /> thông minh
+          </div>
+          <div className="absolute right-[calc(100%*100/1184)] top-[calc(100%*873.91/1043.82)] text-[1.75vw] font-[600] text-green3">
+            An ninh thông minh
+          </div>
+          <ImageModal
+            classNameBtn="absolute right-12 top-12 p-1.5 rounded"
+            classNameDialog="bg-bg/50"
+            content={
+              <div className="max-w-full overflow-x-auto px-2 py-2 scrollbar-thin">
+                <div className="relative mx-auto w-[860px] flex-shrink-0 xl:w-[1190px]">
+                  <Image
+                    src="/section-6-sc.png"
+                    alt="/section-6-sc.png"
+                    width={1200}
+                    height={0}
+                    quality={100}
+                    priority
+                    className="object-cover"
+                  />
+                  {/* 1184px 1043.82px 521.91 */}
+                  <div className="absolute left-4 top-[calc(100%*311.91/1043.82)] text-[1.25rem] font-[600] text-green3">
+                    Giao tiếp thông minh
+                  </div>
+                  <div className="absolute left-4 top-[calc(100%*843.91/1043.82)] text-[1.25rem] font-[600] text-green3">
+                    Booking Khu Vui chơi
+                  </div>
+                  <div className="absolute right-6 top-[calc(100%*479.91/1043.82)] text-[1.25rem] font-[600] text-green3">
+                    Cộng đồng <br /> thông minh
+                  </div>
+                  <div className="absolute right-[calc(100%*100/1184)] top-[calc(100%*873.91/1043.82)] text-[1.25rem] font-[600] text-green3">
+                    An ninh thông minh
+                  </div>
+                </div>
+              </div>
+            }
+          />
         </div>
 
         <div className="mx-auto max-w-[1280px] px-12">

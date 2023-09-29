@@ -6,6 +6,7 @@ import {
 import CamOutlinedTitle from 'src/components/items/CamOutlinedTitle';
 import SectionCard5 from 'src/components/items/SectionCard5';
 import { NImage as Image } from 'src/components/next/Image';
+import ImageModal from '../items/ImageModal';
 
 function Section5() {
   return (
@@ -40,19 +41,37 @@ function Section5() {
         </div>
       </div>
 
-      <div className="relative -mt-11 max-w-full overflow-x-auto scrollbar-thin xl:-mt-[220px]">
-        <div className="relative mx-auto min-w-[1020px] max-w-[1620px] xl:w-auto">
-          <Image
-            width={1920}
-            height={0}
-            src="/section-5-combined.png"
-            alt="section-5-combined"
-            className="object-cover"
-            quality={100}
-            priority
-            // className="-translate-y-[200px]"
-          />
-        </div>
+      <div className="relative mx-auto -mt-11 mb-10 w-full xl:-mt-[220px]">
+        <Image
+          width={1920}
+          height={0}
+          src="/section-5-combined.png"
+          alt="section-5-combined"
+          className="object-cover"
+          quality={100}
+          priority
+          // className="-translate-y-[200px]"
+        />
+        <ImageModal
+          classNameBtn="absolute right-12 top-0 p-1.5 rounded"
+          classNameDialog="bg-bg/50"
+          content={
+            <div className="relative max-w-full overflow-x-auto scrollbar-thin ">
+              <div className="relative mx-auto min-w-[1020px] max-w-[1620px] xl:w-auto">
+                <Image
+                  width={1920}
+                  height={0}
+                  src="/section-5-combined.png"
+                  alt="section-5-combined"
+                  className="object-cover"
+                  quality={100}
+                  priority
+                  // className="-translate-y-[200px]"
+                />
+              </div>
+            </div>
+          }
+        />
       </div>
 
       <div className="relative mx-auto max-w-[1280px] px-12">

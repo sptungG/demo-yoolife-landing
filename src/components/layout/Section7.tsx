@@ -1,4 +1,5 @@
 import { NImage as Image } from 'src/components/next/Image';
+import ImageModal from '../items/ImageModal';
 
 function Section7() {
   return (
@@ -30,18 +31,35 @@ function Section7() {
           người làm trung tâm và theo đuổi triết lý thiết kế số hóa nhu cầu theo
           các cấp độ từ cá nhân – gia đình – cộng đồng – xã hội.
         </p>
-        <div className="mb-10 max-w-full overflow-x-auto px-4 scrollbar-thin">
-          <div className="relative mx-auto w-[640px] flex-shrink-0 sm:w-[880px] xl:w-[1100px]">
-            <Image
-              width={1280}
-              height={0}
-              src="/section-7-main.png"
-              alt="section-7-main"
-              quality={100}
-              priority
-              className="-z-10 object-cover"
-            />
-          </div>
+        <div className="relative mx-auto mb-10 w-full px-4">
+          <Image
+            width={1280}
+            height={0}
+            src="/section-7-main.png"
+            alt="section-7-main"
+            quality={100}
+            priority
+            className="-z-10 object-cover"
+          />
+          <ImageModal
+            classNameBtn="absolute right-12 top-0 p-1.5 rounded"
+            classNameDialog="bg-bg/50"
+            content={
+              <div className="max-w-full overflow-x-auto px-2 py-2 scrollbar-thin">
+                <div className="relative mx-auto w-[640px] flex-shrink-0 sm:w-[880px] xl:w-[1100px]">
+                  <Image
+                    width={1280}
+                    height={0}
+                    src="/section-7-main.png"
+                    alt="section-7-main"
+                    quality={100}
+                    priority
+                    className="-z-10 object-cover"
+                  />
+                </div>
+              </div>
+            }
+          />
         </div>
         <p className="px-12 text-justify text-[1.25rem] font-[300] leading-[2] text-gray-50">
           Xã hội thông minh – Smart Social, xét theo nghĩa hẹp, là một xã hội
@@ -58,7 +76,7 @@ function Section7() {
         </p>
       </div>
       <div className="mb-10 max-w-full overflow-x-auto px-4 scrollbar-thin">
-        <div className="relative w-[960px] flex-shrink-0 sm:w-[1260px] xl:w-full">
+        <div className="relative w-[960px] flex-shrink-0 sm:w-[1200px] xl:w-full">
           <Image
             width={1920}
             height={0}
