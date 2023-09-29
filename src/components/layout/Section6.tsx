@@ -12,6 +12,7 @@ function Section6() {
           alt="section-6-top"
           quality={90}
           priority
+          className="opacity-80"
         />
       </div>
 

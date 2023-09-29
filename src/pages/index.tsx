@@ -19,7 +19,7 @@ function Page() {
 
   return (
     <SimpleBar
-      className={`${_Montserrat.className} relative mx-auto h-[100dvh] max-w-[1920px] overflow-x-hidden`}
+      className={`${_Montserrat.className} relative mx-auto max-h-[100dvh] max-w-[1920px] overflow-x-hidden`}
     >
       <SEO title="Yoolife" description="Yoolife AIoT Platform" />
 

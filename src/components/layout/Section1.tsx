@@ -77,10 +77,10 @@ function Section1() {
               image={
                 <Image
                   width={90}
-                  height={90}
+                  height={0}
                   alt={'Trợ lí Ảo'}
                   src={'/section-1-tro-li-ao.png'}
-                  className="h-[5.625rem] w-[5.625rem] flex-shrink-0"
+                  className="w-[5.625rem] flex-shrink-0"
                   quality={50}
                 />
               }
@@ -95,10 +95,10 @@ function Section1() {
               image={
                 <Image
                   width={90}
-                  height={90}
+                  height={0}
                   alt={'Tra cứu thông tin'}
                   src={'/section-1-tra-cuu.png'}
-                  className="h-[5.625rem] w-[5.625rem] flex-shrink-0"
+                  className="w-[5.625rem] flex-shrink-0"
                   quality={50}
                 />
               }
@@ -117,10 +117,10 @@ function Section1() {
               image={
                 <Image
                   width={70}
-                  height={70}
+                  height={0}
                   alt={'Tủ đồ thông minh'}
                   src={'/section-1-tu-do.png'}
-                  className="h-[4.375rem] w-[4.375rem] flex-shrink-0"
+                  className="w-[4.375rem] flex-shrink-0"
                   quality={50}
                 />
               }
@@ -139,10 +139,10 @@ function Section1() {
               image={
                 <Image
                   width={80}
-                  height={80}
+                  height={0}
                   alt={'Shopping Online'}
                   src={'/section-1-shopping.png'}
-                  className="h-[5rem] w-[5rem] flex-shrink-0"
+                  className="w-[5rem] flex-shrink-0"
                   quality={50}
                 />
               }
@@ -161,16 +161,18 @@ function Section1() {
               image={
                 <Image
                   width={80}
-                  height={80}
+                  height={0}
                   alt={'Theo dõi Điện, Nước'}
                   src={'/section-1-dien-nuoc.png'}
-                  className="h-[5rem] w-[5rem] flex-shrink-0"
+                  className="w-[5rem] flex-shrink-0"
                   quality={50}
                 />
               }
               text={
                 <span className="whitespace-nowrap text-center font-[600] leading-tight">
-                  Theo dõi <br /> Điện, Nước
+                  Theo dõi
+                  <br />
+                  Điện, Nước
                 </span>
               }
             />

@@ -11,14 +11,14 @@ function Section4() {
           alt="section-4-top"
           quality={100}
           priority
-          className="opacity-40 xl:opacity-100"
+          className="opacity-60"
         />
         <Image
           width={539}
           height={0}
           src="/section-4-top-1.png"
           alt="section-4-top-1"
-          className="absolute bottom-[50%] left-0 w-[45%] opacity-40 xl:bottom-[38%] xl:w-[539px] xl:opacity-100"
+          className="absolute bottom-[50%] left-0 w-[45%] opacity-60 xl:bottom-[42%] xl:w-[539px]"
           quality={50}
         />
         <Image
