@@ -18,7 +18,7 @@ function Page() {
 
   return (
     <main
-      className={`${_Montserrat.className} relative mx-auto min-h-screen max-w-[1920px] overflow-x-hidden`}
+      className={`${_Montserrat.className} relative mx-auto min-h-screen max-w-[1920px] overflow-x-hidden scrollbar-thin`}
     >
       <SEO title="Yoolife" description="Yoolife AIoT Platform" />
 
