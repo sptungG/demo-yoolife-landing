@@ -19,13 +19,15 @@ function Section4() {
           src="/section-4-top-1.png"
           alt="section-4-top-1"
           className="absolute bottom-[50%] left-0 w-[45%] opacity-40 xl:bottom-[38%] xl:w-[539px] xl:opacity-100"
+          quality={50}
         />
         <Image
           width={1920}
           height={1582}
           src="/section-4-top-bg.png"
           alt="section-4-top-bg"
-          className="absolute left-0 top-0 object-cover"
+          className="absolute left-0 top-0 -z-10 object-cover"
+          quality={1}
         />
 
         <div className="absolute left-[16px] top-[100px] flex flex-col items-end">

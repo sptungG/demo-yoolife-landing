@@ -44,6 +44,7 @@ function Section1() {
               src={'/img-section-1.png'}
               alt="img-section-1"
               className="origin-bottom-right scale-75 opacity-40 backdrop-blur-md lg:scale-100 xl:opacity-100"
+              quality={50}
             />
           </div>
         </div>
@@ -61,7 +62,8 @@ function Section1() {
                   height={90}
                   alt={'Nhắc việc'}
                   src={'/section-1-nhac-viec.png'}
-                  className="h-[5.625rem] w-[5.625rem] rounded-bl-[42px]"
+                  className="h-[5.625rem] w-[5.625rem] flex-shrink-0 rounded-bl-[42px]"
+                  quality={50}
                 />
               }
               text={<span className="mt-1 font-[600]">Nhắc việc</span>}
@@ -78,7 +80,8 @@ function Section1() {
                   height={90}
                   alt={'Trợ lí Ảo'}
                   src={'/section-1-tro-li-ao.png'}
-                  className="h-[5.625rem] w-[5.625rem]"
+                  className="h-[5.625rem] w-[5.625rem] flex-shrink-0"
+                  quality={50}
                 />
               }
               text={<span className="mt-1.5 font-[600]">Trợ lí Ảo</span>}
@@ -95,7 +98,8 @@ function Section1() {
                   height={90}
                   alt={'Tra cứu thông tin'}
                   src={'/section-1-tra-cuu.png'}
-                  className="h-[5.625rem] w-[5.625rem]"
+                  className="h-[5.625rem] w-[5.625rem] flex-shrink-0"
+                  quality={50}
                 />
               }
               text={
@@ -116,7 +120,8 @@ function Section1() {
                   height={70}
                   alt={'Tủ đồ thông minh'}
                   src={'/section-1-tu-do.png'}
-                  className="h-[4.375rem] w-[4.375rem]"
+                  className="h-[4.375rem] w-[4.375rem] flex-shrink-0"
+                  quality={50}
                 />
               }
               text={
@@ -137,7 +142,8 @@ function Section1() {
                   height={80}
                   alt={'Shopping Online'}
                   src={'/section-1-shopping.png'}
-                  className="h-[5rem] w-[5rem]"
+                  className="h-[5rem] w-[5rem] flex-shrink-0"
+                  quality={50}
                 />
               }
               text={
@@ -158,7 +164,8 @@ function Section1() {
                   height={80}
                   alt={'Theo dõi Điện, Nước'}
                   src={'/section-1-dien-nuoc.png'}
-                  className="h-[5rem] w-[5rem]"
+                  className="h-[5rem] w-[5rem] flex-shrink-0"
+                  quality={50}
                 />
               }
               text={
@@ -175,7 +182,7 @@ function Section1() {
             src={'/img-section-2.png'}
             alt="img-section-2"
             className="absolute bottom-0 left-0 -z-10 origin-bottom-left -translate-x-[7.5rem] scale-[1.05] object-cover max-sm:border-b-2 max-sm:border-gray-50 max-sm:opacity-50 sm:scale-100"
-            quality={100}
+            quality={90}
             priority
           />
           {/* 1184 950  592 */}

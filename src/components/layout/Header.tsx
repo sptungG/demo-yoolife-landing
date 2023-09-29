@@ -1,5 +1,4 @@
-import { MdMenu } from 'react-icons/md';
-import { LogoSvg, LogoTextSvg } from '../icons';
+import { LogoSvg, LogoTextSvg, MenuBarSvg } from '../icons';
 
 function Header() {
   return (
@@ -45,7 +44,7 @@ function Header() {
               className="inline-flex items-center justify-center rounded-md p-2.5 text-gray-50"
             >
               <span className="sr-only">Open main menu</span>
-              <MdMenu className="h-8 w-8" aria-hidden="true" />
+              <MenuBarSvg className="h-8 w-8" aria-hidden="true" />
             </button>
           </div>
         </nav>

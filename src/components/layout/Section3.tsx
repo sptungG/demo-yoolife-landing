@@ -271,6 +271,7 @@ function Section3() {
             src={'/section-3-main-bg.png'}
             alt="section-3-main-bg"
             className="absolute right-0 top-0 -z-10 w-[40%] -translate-y-[36%] translate-x-[30%] -rotate-90 -scale-x-100 opacity-20 min-[1258px]:w-[634px]"
+            quality={1}
           />
 
           <Image
@@ -279,6 +280,7 @@ function Section3() {
             src={'/section-3-main-bg.png'}
             alt="section-3-main-bg"
             className="absolute bottom-0 left-0 -z-10 w-[40%] -translate-x-[25%] translate-y-[42%] -rotate-90 -scale-x-100 opacity-20 min-[1258px]:w-[634px]"
+            quality={1}
           />
         </div>
       </div>

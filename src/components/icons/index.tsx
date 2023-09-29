@@ -11,6 +11,7 @@ import FbFillSvg from './fb-fill.svg';
 import LogoTextSvg from './logo-text.svg';
 import LogoSvg from './logo.svg';
 import MapOutlinedSvg from './map-outlined.svg';
+import MenuBarSvg from './menu-bar.svg';
 import PhoneOutlinedSvg from './phone-outlined.svg';
 import RadioSvg from './radio-button.svg';
 import Section5ArrowRightSvg from './section-5-arrow-r.svg';
@@ -47,6 +48,7 @@ export {
   LogoSvg,
   LogoTextSvg,
   MapOutlinedSvg,
+  MenuBarSvg,
   PhoneOutlinedSvg,
   RadioSvg,
   Section5ArrowRightSvg,
