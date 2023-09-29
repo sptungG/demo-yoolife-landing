@@ -23,7 +23,7 @@ function Section3() {
         <div className="mb-[20px] text-center text-[2.1875rem] font-[600]">
           Giải pháp Nhà thông minh
         </div>
-        <p className="text-center text-[1.375rem] font-[300] leading-normal">
+        <p className="text-center text-[1.375rem] font-[300] leading-[2]">
           Ứng dụng Yoolife với 14 tính nắng thông minh, giúp nâng cao chất lượng
           cuộc sống thúc đẩy sự chuyển đổi số trong chính ngôi nhà của bạn.
         </p>

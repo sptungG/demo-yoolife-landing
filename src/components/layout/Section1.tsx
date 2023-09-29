@@ -49,19 +49,8 @@ function Section1() {
         </div>
       </div>
 
-      <div className="relative mx-auto h-[100vh] max-w-[1280px] px-12 text-gray-50 sm:h-[80vh] lg:h-screen">
-        <div className="relative flex h-full items-end">
-          <Image
-            width={718}
-            height={734}
-            src={'/img-section-2.png'}
-            alt="img-section-2"
-            className="absolute bottom-0 left-0 origin-bottom-left -translate-x-[7.5rem] scale-[1] object-cover opacity-40 max-sm:backdrop-blur-md sm:scale-75 xl:scale-100 xl:opacity-100"
-            quality={100}
-            priority
-          />
-          {/* 1184 950  592 */}
-
+      <div className="relative mx-auto max-w-[1280px] px-12 text-gray-50">
+        <div className="relative h-screen max-sm:-mt-20">
           <div className="absolute left-[calc(100%*492/1184)] top-[calc(100%*190/950)] scale-90 max-sm:-translate-x-[80px] md:scale-100">
             <SectionDot1
               classNameWrapper="h-[6.5625rem] w-[6.5625rem] hover:h-[10rem] hover:w-[10rem]"
@@ -180,9 +169,21 @@ function Section1() {
             />
           </div>
 
+          <Image
+            width={718}
+            height={734}
+            src={'/img-section-2.png'}
+            alt="img-section-2"
+            className="absolute bottom-0 left-0 -z-10 origin-bottom-left -translate-x-[7.5rem] scale-[1.05] object-cover max-sm:border-b-2 max-sm:border-gray-50 max-sm:opacity-50 sm:scale-100"
+            quality={100}
+            priority
+          />
+          {/* 1184 950  592 */}
+        </div>
+        <div className="absolute right-0 top-0 -z-10 flex h-full w-full items-end max-sm:relative max-sm:mb-14 max-sm:mt-24 sm:px-12">
           <div className="relative ml-auto pb-12">
             <div className="mb-9 max-w-[552px] translate-x-8 text-[1.25rem] sm:translate-x-0">
-              <p className="leading-[3.0625rem]">
+              <p className="text-[1.375rem] leading-[3.0625rem]">
                 Yoolife là người trợ lý ảo giúp đỡ bạn trong cuộc sống hàng
                 ngày, mang đến cuộc sống tốt hơn, thông minh hơn, và hạnh phúc
                 hơn!

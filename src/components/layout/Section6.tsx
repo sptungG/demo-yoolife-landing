@@ -149,7 +149,7 @@ function Section6() {
             An ninh thông minh
           </div>
           <ImageModal
-            classNameBtn="absolute right-12 top-12 p-1.5 rounded"
+            classNameBtn="absolute right-12 top-12 p-1.5 rounded xl:hidden"
             classNameDialog="bg-bg/50"
             content={
               <div className="max-w-full overflow-x-auto px-2 py-2 scrollbar-thin">

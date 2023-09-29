@@ -40,18 +40,18 @@ function Section2() {
       </div>
 
       <div className="mx-auto max-w-[1280px] px-12 py-[48px] text-gray-50">
-        <div className="mb-[30px] text-[2.0625rem] font-[700]">
+        <div className="mb-[30px] text-[2.0625rem] font-[700] leading-[2]">
           Yoolife AIoT Platform
         </div>
 
         <div className="mb-4 text-[1.675rem] font-[600]">Sứ mệnh</div>
-        <p className="mb-[30px] text-justify text-[1.375rem] font-[300] leading-normal">
+        <p className="mb-[30px] text-justify text-[1.375rem] font-[300] leading-[2]">
           Chúng tôi mong muốn mang đến một không gian sống thông minh và hiện
           đại, phù hợp với tất cả mọi người dân Việt Nam.
         </p>
 
         <div className="mb-4 text-[1.675rem] font-[600]">Tầm nhìn</div>
-        <p className="text-justify text-[1.375rem] font-[300] leading-normal">
+        <p className="text-justify text-[1.375rem] font-[300] leading-[2]">
           Chúng tôi luôn hướng đến trở thành đơn vị phát triển Nhà ở thông minh
           hàng đầu không chỉ trong nước mà còn trên Thế giới. Chúng tôi luôn
           tiên phong đổi mới, ứng dụng kỹ thuật hiện đại, tích hợp công nghệ

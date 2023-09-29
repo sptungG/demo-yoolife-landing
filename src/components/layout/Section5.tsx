@@ -53,7 +53,7 @@ function Section5() {
           // className="-translate-y-[200px]"
         />
         <ImageModal
-          classNameBtn="absolute right-12 top-0 p-1.5 rounded"
+          classNameBtn="absolute right-12 top-0 p-1.5 rounded xl:hidden"
           classNameDialog="bg-bg/50"
           content={
             <div className="relative max-w-full overflow-x-auto scrollbar-thin ">
