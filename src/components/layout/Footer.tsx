@@ -116,7 +116,7 @@ function Footer() {
               <div className="mb-4 flex cursor-pointer items-center text-gray-400 hover:text-gray-300 hover:underline">
                 <AppStoreFillSvg className="h-6 w-6" />
                 <a
-                  href="http://"
+                  href="https://imaxhitech.com/nen-tang-imaxtek-iot-platform/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="ml-2.5"
@@ -127,7 +127,7 @@ function Footer() {
               <div className="flex cursor-pointer items-center text-gray-400 hover:text-gray-300 hover:underline">
                 <AndroidFillSvg className="h-6 w-6" />
                 <a
-                  href="http://"
+                  href="https://imaxhitech.com/nen-tang-imaxtek-iot-platform/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="ml-2.5"
@@ -142,7 +142,7 @@ function Footer() {
             </div>
             <div className="flex flex-nowrap gap-6 text-gray-400">
               <a
-                href="http://"
+                href="https://imaxhitech.com/nen-tang-imaxtek-iot-platform/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex cursor-pointer items-center justify-center hover:text-blue-600"
@@ -150,7 +150,7 @@ function Footer() {
                 <FbFillSvg className="h-10 w-10" />
               </a>
               <a
-                href="http://"
+                href="https://imaxhitech.com/nen-tang-imaxtek-iot-platform/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex cursor-pointer items-center justify-center hover:text-gray-400"
@@ -158,7 +158,7 @@ function Footer() {
                 <TiktokFillSvg className="h-10 w-10" />
               </a>
               <a
-                href="http://"
+                href="https://imaxhitech.com/nen-tang-imaxtek-iot-platform/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex cursor-pointer items-center justify-center hover:text-blue-300"

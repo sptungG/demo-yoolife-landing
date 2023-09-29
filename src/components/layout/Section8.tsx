@@ -43,7 +43,7 @@ function Section8() {
           <div className="mb-6 flex flex-col items-center xl:flex-row">
             <div className="flex flex-col gap-12">
               <a
-                href="http://"
+                href="https://imaxhitech.com/nen-tang-imaxtek-iot-platform/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="group flex items-center rounded-lg border bg-gray-50 pb-3 pl-3 pr-4 pt-3 shadow-md shadow-green3/50"
@@ -58,7 +58,7 @@ function Section8() {
               </a>
 
               <a
-                href="http://"
+                href="https://imaxhitech.com/nen-tang-imaxtek-iot-platform/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="group flex items-center rounded-lg border bg-gray-50 pb-3 pl-3 pr-4 pt-3 shadow-md shadow-green3/50"
