@@ -1,5 +1,6 @@
 import { Montserrat } from 'next/font/google';
 import { useId } from 'react';
+import SimpleBar from 'simplebar-react';
 import Footer from 'src/components/layout/Footer';
 import Header from 'src/components/layout/Header';
 import Section1 from 'src/components/layout/Section1';
@@ -17,8 +18,8 @@ function Page() {
   const uid = useId();
 
   return (
-    <main
-      className={`${_Montserrat.className} relative mx-auto min-h-screen max-w-[1920px] overflow-x-hidden scrollbar-thin`}
+    <SimpleBar
+      className={`${_Montserrat.className} relative mx-auto h-[100dvh] max-w-[1920px] overflow-x-hidden`}
     >
       <SEO title="Yoolife" description="Yoolife AIoT Platform" />
 
@@ -41,7 +42,7 @@ function Page() {
       <Section8 />
 
       <Footer />
-    </main>
+    </SimpleBar>
   );
 }
 
