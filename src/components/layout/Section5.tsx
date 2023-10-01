@@ -1,3 +1,4 @@
+import dynamic from 'next/dynamic';
 import {
   RadioSvg,
   Section5ArrowRightSvg,
@@ -6,7 +7,8 @@ import {
 import CamOutlinedTitle from 'src/components/items/CamOutlinedTitle';
 import SectionCard5 from 'src/components/items/SectionCard5';
 import { NImage as Image } from 'src/components/next/Image';
-import ImageModal from '../items/ImageModal';
+// import ImageModal from '../items/ImageModal';
+const ImageModal = dynamic(() => import('../items/ImageModal'), { ssr: false });
 
 function Section5() {
   return (
