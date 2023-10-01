@@ -1,5 +1,9 @@
+import dynamic from 'next/dynamic';
 import Link from 'next/link';
 import { LogoSvg, LogoTextSvg, MenuBarSvg } from '../icons';
+const VideoHeader = dynamic(() => import('../items/VideoHeader'), {
+  ssr: false,
+});
 
 function Header() {
   const handleScrollToTop = () => {
@@ -10,14 +14,7 @@ function Header() {
   return (
     <header className="">
       <div className="relative left-0 top-0 h-fit max-h-[1080px] w-full pt-[88px] xl:pt-0">
-        <video
-          src="/header-banner-1.mp4"
-          autoPlay
-          muted
-          loop
-          playsInline
-          className="z-0 h-full w-full object-contain"
-        ></video>
+        <VideoHeader />
         {/* <div className="absolute -bottom-0 -left-1 -right-1 z-10 h-[20px] bg-gradient-to-t from-bg blur-sm"></div> */}
       </div>
       <div className="fixed left-0 top-0 z-20 w-full bg-bg/90 bg-opacity-60 backdrop-blur-sm">
