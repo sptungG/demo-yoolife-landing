@@ -16,7 +16,7 @@ function Section7() {
         <Image
           width={1920}
           height={0}
-          src="/section-7-top.png"
+          src="/v1/section-7-top.png"
           alt="section-7-top"
           quality={90}
           priority
@@ -24,7 +24,7 @@ function Section7() {
         />
       </div>
       <div className="mx-auto mt-10 max-w-[1280px]">
-        <p className="mb-10 px-12 text-justify text-[1.25rem] font-[300] leading-[2] text-gray-50">
+        <div className="mb-10 px-12 text-justify text-[1.25rem] font-[300] leading-[2] text-gray-50">
           Chúng tôi định nghĩa mô hình xã hội thông minh dựa trên 3 trụ cột
           chính gồm: Kinh tế số – Xã hội số – Cuộc sống số. Ý thức sâu sắc về xu
           hướng chuyển đổi số đang lan rộng trong mọi mặt đời sống, quan sát
@@ -32,12 +32,12 @@ function Section7() {
           IOT, Yoolife tiên phong dẫn lối xây dựng cuộc sống thông minh lấy con
           người làm trung tâm và theo đuổi triết lý thiết kế số hóa nhu cầu theo
           các cấp độ từ cá nhân – gia đình – cộng đồng – xã hội.
-        </p>
+        </div>
         <div className="relative mx-auto mb-10 w-full px-4">
           <Image
             width={1280}
             height={0}
-            src="/section-7-main.png"
+            src="/v1/section-7-main.png"
             alt="section-7-main"
             quality={100}
             priority
@@ -52,7 +52,7 @@ function Section7() {
                   <Image
                     width={1280}
                     height={0}
-                    src="/section-7-main.png"
+                    src="/v1/section-7-main.png"
                     alt="section-7-main"
                     quality={100}
                     priority
@@ -63,7 +63,7 @@ function Section7() {
             }
           />
         </div>
-        <p className="px-12 text-justify text-[1.25rem] font-[300] leading-[2] text-gray-50">
+        <div className="px-12 text-justify text-[1.25rem] font-[300] leading-[2] text-gray-50">
           Xã hội thông minh – Smart Social, xét theo nghĩa hẹp, là một xã hội
           ứng dụng Tự động hóa, CNTT nhằm số hóa các trụ cột như kinh tế số, xã
           hội số và cuộc sống số. Mô hình Smart Social cho phép kết nối con
@@ -75,14 +75,14 @@ function Section7() {
           nhằm kiến tạo nên không gian sống hoàn hảo, tiện nghi, đẳng cấp, đặt
           nền tảng cho một cuộc sống lý tưởng: “công nghệ – tiện nghi – xanh –
           thông minh”
-        </p>
+        </div>
       </div>
       <div className="mb-10 max-w-full overflow-x-auto px-4 scrollbar-thin">
         <div className="relative w-[960px] flex-shrink-0 sm:w-[1200px] xl:w-full">
           <Image
             width={1920}
             height={0}
-            src="/section-7-bottom.png"
+            src="/v1/section-7-bottom.png"
             alt="section-7-bottom"
             quality={100}
             priority

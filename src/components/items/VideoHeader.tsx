@@ -1,7 +1,7 @@
 function VideoHeader() {
   return (
     <video
-      src="/header-banner-1.mp4"
+      src="/v1/header-banner-1.mp4"
       autoPlay
       muted
       loop

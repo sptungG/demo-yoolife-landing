@@ -10,7 +10,7 @@ function Section6() {
         <Image
           width={1920}
           height={0}
-          src="/section-6-top.png"
+          src="/v1/section-6-top.png"
           alt="section-6-top"
           quality={90}
           priority
@@ -23,7 +23,7 @@ function Section6() {
           Sm<span className="font-mono">a</span>rt City
         </h3>
         <div className="mx-auto max-w-[1280px] px-12">
-          <p className="text-justify text-[1.25rem] font-[300] leading-[2] text-gray-50">
+          <div className="text-justify text-[1.25rem] font-[300] leading-[2] text-gray-50">
             Công nghệ số ngày càng phát triển, nhu cầu kết nối không chỉ dừng
             lại ở thiết bị – thiết bị, thiết bị – con người mà nó còn lan rộng
             nhằm kết nối cư dân – cư dân, cư dân – ban quản trị, cư dân trong
@@ -31,13 +31,13 @@ function Section6() {
             thành trung tâm trong các hoạt động số hóa. Chung tay xây dựng cộng
             đồng số – cộng đồng thông minh, kiến tạo xã hội thông minh là một
             trong các kim chỉ nam của Yoolife.
-          </p>
+          </div>
         </div>
       </div>
 
       <div className="mx-auto mt-10 max-w-[1280px] px-12">
         <Image
-          src="/section-6-city.png"
+          src="/v1/section-6-city.png"
           alt=""
           width={1280}
           height={0}
@@ -117,9 +117,9 @@ function Section6() {
                       className="flex flex-nowrap items-baseline"
                     >
                       <span className="mr-2">•</span>
-                      <p className="whitespace-pre-wrap break-words font-[300] leading-tight">
+                      <div className="whitespace-pre-wrap break-words font-[300] leading-tight">
                         {c}
-                      </p>
+                      </div>
                     </div>
                   ))}
                 </div>
@@ -130,8 +130,8 @@ function Section6() {
 
         <div className="relative mx-auto mb-10 w-full px-4">
           <Image
-            src="/section-6-sc.png"
-            alt="/section-6-sc.png"
+            src="/v1/section-6-sc.png"
+            alt="/v1/section-6-sc.png"
             width={1200}
             height={0}
             quality={90}
@@ -158,8 +158,8 @@ function Section6() {
               <div className="max-w-full overflow-x-auto px-2 py-2 scrollbar-thin">
                 <div className="relative mx-auto w-[860px] flex-shrink-0 xl:w-[1190px]">
                   <Image
-                    src="/section-6-sc.png"
-                    alt="/section-6-sc.png"
+                    src="/v1/section-6-sc.png"
+                    alt="/v1/section-6-sc.png"
                     width={1200}
                     height={0}
                     quality={100}
@@ -186,7 +186,7 @@ function Section6() {
         </div>
 
         <div className="mx-auto max-w-[1280px] px-12">
-          <div className="min-h-12 flex items-center justify-center rounded-full border border-green3 px-6 py-3 text-center align-bottom text-[1.5rem] font-[600] leading-[1.4] text-green3">
+          <div className="flex min-h-12 items-center justify-center rounded-full border border-green3 px-6 py-3 text-center align-bottom text-[1.5rem] font-[600] leading-[1.4] text-green3">
             Yoolife nhà kiến tạo Cộng đồng thông minh - Xã hội Văn minh
           </div>
         </div>

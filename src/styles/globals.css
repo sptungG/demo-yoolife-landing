@@ -2,6 +2,16 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
+  :root {
+    --swiper-theme-color: #83a537;
+  }
+  .swiper-navigation-hide .swiper-button-prev,
+  .swiper-navigation-hide .swiper-button-next {
+    display: none;
+  }
+}
+
 @layer components {
   .text-shadow-white {
     text-shadow:
@@ -57,4 +67,54 @@ html {
   html {
     font-size: 16px;
   }
+}
+
+nextjs-portal {
+  display: none !important;
+}
+
+.ms-track.ms-y {
+  border: none;
+  width: 6px;
+}
+.ms-track.ms-y .ms-thumb {
+  right: 1px;
+}
+
+/* @media screen and (max-width: 767.98px) {
+  .ms-global .ms-track.ms-y {
+    display: none;
+  }
+} */
+.ms-global > .ms-track-box .ms-track.ms-y .ms-thumb:hover {
+  width: 6px;
+}
+
+.ms-global > .ms-track-box .ms-track.ms-y .ms-thumb:hover {
+  width: 6px;
+}
+
+.ms-track.ms-y.ms-active .ms-thumb,
+.ms-track.ms-y:hover .ms-thumb {
+  width: 6px;
+}
+
+.ms-track,
+.ms-track.ms-active,
+.ms-track.ms-active:hover,
+.ms-track:hover {
+  border: none !important;
+  background: none !important;
+}
+
+.ms-track.ms-x {
+  height: 6px;
+}
+
+.ms-track.ms-x .ms-thumb {
+  bottom: 1px;
+}
+
+.ms-track.ms-x:hover .ms-thumb {
+  height: 6px;
 }

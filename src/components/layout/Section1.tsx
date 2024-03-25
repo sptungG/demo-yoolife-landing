@@ -20,28 +20,28 @@ function Section1() {
 
         <div className="relative mt-6 flex items-end">
           <div className="z-10 min-w-0 flex-auto text-[1.25rem] xl:mr-6 xl:max-w-[780px]">
-            <p className="mb-6 text-justify leading-[3.0625rem]">
+            <div className="mb-6 text-justify leading-[3.0625rem]">
               Cá nhân hóa không chỉ là một xu hướng, mà còn là tâm huyết của
               chúng tôi.
-            </p>
-            <p className="mb-6 text-justify leading-[3.0625rem]">
+            </div>
+            <div className="mb-6 text-justify leading-[3.0625rem]">
               Chúng tôi tin rằng mỗi người đều độc đáo, với những ước mơ, nhu
               cầu và sở thích riêng. Đó là lý do tại sao chúng tôi tận tâm mang
               đến cho bạn những trải nghiệm thực sự cá nhân hóa.
-            </p>
-            <p className="mb-6 text-justify leading-[3.0625rem]">
+            </div>
+            <div className="mb-6 text-justify leading-[3.0625rem]">
               Chúng tôi không chỉ cung cấp sản phẩm chất lượng, chúng tôi tạo ra
               những giải pháp đáp ứng đúng những mong muốn của bạn. Với sự kết
               hợp của dữ liệu thông minh và sáng tạo, chúng tôi đưa ra những gợi
               ý tùy chỉnh, từ nội dung thú vị cho đến sản phẩm phù hợp với gu
               thời trang hay nhu cầu cá nhân.
-            </p>
+            </div>
           </div>
           <div className="absolute bottom-0 right-0 z-0">
             <Image
               width={380}
               height={512}
-              src={'/img-section-1.png'}
+              src={'/v1/img-section-1.png'}
               alt="img-section-1"
               className="origin-bottom-right scale-75 opacity-40 backdrop-blur-md lg:scale-100 xl:opacity-100"
               quality={50}
@@ -61,7 +61,7 @@ function Section1() {
                   width={90}
                   height={90}
                   alt={'Nhắc việc'}
-                  src={'/section-1-nhac-viec.png'}
+                  src={'/v1/section-1-nhac-viec.png'}
                   className="h-[5.625rem] w-[5.625rem] flex-shrink-0 rounded-bl-[42px]"
                   quality={50}
                 />
@@ -79,7 +79,7 @@ function Section1() {
                   width={90}
                   height={0}
                   alt={'Trợ lí Ảo'}
-                  src={'/section-1-tro-li-ao.png'}
+                  src={'/v1/section-1-tro-li-ao.png'}
                   className="w-[5.625rem] flex-shrink-0"
                   quality={50}
                 />
@@ -97,7 +97,7 @@ function Section1() {
                   width={90}
                   height={0}
                   alt={'Tra cứu thông tin'}
-                  src={'/section-1-tra-cuu.png'}
+                  src={'/v1/section-1-tra-cuu.png'}
                   className="w-[5.625rem] flex-shrink-0"
                   quality={50}
                 />
@@ -119,7 +119,7 @@ function Section1() {
                   width={70}
                   height={0}
                   alt={'Tủ đồ thông minh'}
-                  src={'/section-1-tu-do.png'}
+                  src={'/v1/section-1-tu-do.png'}
                   className="w-[4.375rem] flex-shrink-0"
                   quality={50}
                 />
@@ -141,7 +141,7 @@ function Section1() {
                   width={80}
                   height={0}
                   alt={'Shopping Online'}
-                  src={'/section-1-shopping.png'}
+                  src={'/v1/section-1-shopping.png'}
                   className="w-[5rem] flex-shrink-0"
                   quality={50}
                 />
@@ -163,7 +163,7 @@ function Section1() {
                   width={80}
                   height={0}
                   alt={'Theo dõi Điện, Nước'}
-                  src={'/section-1-dien-nuoc.png'}
+                  src={'/v1/section-1-dien-nuoc.png'}
                   className="w-[5rem] flex-shrink-0"
                   quality={50}
                 />
@@ -181,7 +181,7 @@ function Section1() {
           <Image
             width={718}
             height={734}
-            src={'/img-section-2.png'}
+            src={'/v1/img-section-2.png'}
             alt="img-section-2"
             className="absolute bottom-0 left-0 -z-10 origin-bottom-left -translate-x-[7.5rem] scale-[1.05] object-cover max-sm:border-b-2 max-sm:border-gray-50 max-sm:opacity-50 sm:scale-100"
             quality={90}
@@ -192,11 +192,11 @@ function Section1() {
         <div className="absolute right-0 top-0 -z-10 flex h-full w-full items-end max-sm:relative max-sm:mb-14 max-sm:mt-24 sm:px-12">
           <div className="relative ml-auto pb-12">
             <div className="mb-9 max-w-[552px] translate-x-8 text-[1.25rem] sm:translate-x-0">
-              <p className="text-[1.375rem] leading-[3.0625rem]">
+              <div className="text-[1.375rem] leading-[3.0625rem]">
                 Yoolife là người trợ lý ảo giúp đỡ bạn trong cuộc sống hàng
                 ngày, mang đến cuộc sống tốt hơn, thông minh hơn, và hạnh phúc
                 hơn!
-              </p>
+              </div>
             </div>
 
             <div className="absolute bottom-12 left-9 h-0.5 w-[200%] -translate-x-4 bg-gray-50 sm:left-0">

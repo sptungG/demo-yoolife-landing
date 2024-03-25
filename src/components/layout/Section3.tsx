@@ -23,10 +23,10 @@ function Section3() {
         <div className="mb-[20px] text-center text-[2.1875rem] font-[600]">
           Giải pháp Nhà thông minh
         </div>
-        <p className="text-center text-[1.375rem] font-[300] leading-[2]">
+        <div className="text-center text-[1.375rem] font-[300] leading-[2]">
           Ứng dụng Yoolife với 14 tính nắng thông minh, giúp nâng cao chất lượng
           cuộc sống thúc đẩy sự chuyển đổi số trong chính ngôi nhà của bạn.
-        </p>
+        </div>
       </div>
 
       <div className="relative z-0">
@@ -35,7 +35,7 @@ function Section3() {
             <Image
               width={1338 - 80}
               height={0}
-              src={'/section-3-main.png'}
+              src={'/v1/section-3-main.png'}
               alt="section-3-main"
               className="object-cover"
               quality={100}
@@ -259,7 +259,7 @@ function Section3() {
           <Image
             width={1338 - 80}
             height={0}
-            src={'/section-3-main.png'}
+            src={'/v1/section-3-main.png'}
             alt="section-3-main"
             className="invisible relative -z-10 object-cover"
             quality={1}
@@ -268,7 +268,7 @@ function Section3() {
           <Image
             width={634}
             height={0}
-            src={'/section-3-main-bg.png'}
+            src={'/v1/section-3-main-bg.png'}
             alt="section-3-main-bg"
             className="absolute right-0 top-0 -z-10 w-[40%] -translate-y-[36%] translate-x-[30%] -rotate-90 -scale-x-100 opacity-20 min-[1258px]:w-[634px]"
             quality={1}
@@ -277,7 +277,7 @@ function Section3() {
           <Image
             width={634}
             height={0}
-            src={'/section-3-main-bg.png'}
+            src={'/v1/section-3-main-bg.png'}
             alt="section-3-main-bg"
             className="absolute bottom-0 left-0 -z-10 w-[40%] -translate-x-[25%] translate-y-[42%] -rotate-90 -scale-x-100 opacity-20 min-[1258px]:w-[634px]"
             quality={1}

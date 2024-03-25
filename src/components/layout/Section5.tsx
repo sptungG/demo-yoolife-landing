@@ -23,11 +23,11 @@ function Section5() {
         <div className="mb-8 text-[1.25rem] font-[700] text-gray-50">
           Di chuyển thông minh
         </div>
-        <p className="text-justify text-[1.25rem] font-[300] leading-[2] text-gray-50">
+        <div className="text-justify text-[1.25rem] font-[300] leading-[2] text-gray-50">
           Di chuyển thông minh là trụ cột của quản lý tòa nhà hiện đại, mang lại
           sự tiện ích và hiệu quả cho cả cư dân và quản lý. Hệ thống này kết hợp
           nhiều công nghệ tiên tiến để tối ưu hóa trải nghiệm tại tòa nhà.
-        </p>
+        </div>
         <div className="mt-[42px]">
           {[
             'Hệ thống đỗ xe thông minh (Car Parking)',
@@ -37,7 +37,7 @@ function Section5() {
           ].map((item, index) => (
             <div className="mb-6 flex items-center text-gray-50" key={item}>
               <RadioSvg className="h-6 w-6" />
-              <p className="ml-2 text-[1.25rem] font-[300]">{item}</p>
+              <div className="ml-2 text-[1.25rem] font-[300]">{item}</div>
             </div>
           ))}
         </div>
@@ -47,7 +47,7 @@ function Section5() {
         <Image
           width={1920}
           height={0}
-          src="/section-5-combined.png"
+          src="/v1/section-5-combined.png"
           alt="section-5-combined"
           className="object-cover"
           quality={100}
@@ -63,7 +63,7 @@ function Section5() {
                 <Image
                   width={1920}
                   height={0}
-                  src="/section-5-combined.png"
+                  src="/v1/section-5-combined.png"
                   alt="section-5-combined"
                   className="object-cover"
                   quality={100}
@@ -90,27 +90,27 @@ function Section5() {
               An toàn tòa nhà.`,
             children: [
               {
-                imageUrl: '/section-5-1-1.png',
+                imageUrl: '/v1/section-5-1-1.png',
                 title: 'Hệ thống An Ninh',
                 sub: 'Cảnh báo xâm nhập',
               },
               {
-                imageUrl: '/section-5-1-2.png',
+                imageUrl: '/v1/section-5-1-2.png',
                 title: 'Ứng dụng Yoolife',
                 sub: 'Tiếp nhận thông tin',
               },
               {
-                imageUrl: '/section-5-1-3.png',
+                imageUrl: '/v1/section-5-1-3.png',
                 title: 'HT Chiếu sáng',
                 sub: 'Bật đèn',
               },
               {
-                imageUrl: '/section-5-1-4.png',
+                imageUrl: '/v1/section-5-1-4.png',
                 title: 'HT Chiếu sáng',
                 sub: 'Bật đèn',
               },
               {
-                imageUrl: '/section-5-1-5.png',
+                imageUrl: '/v1/section-5-1-5.png',
                 title: 'Màn hình giám sát',
                 sub: 'Theo dõi',
               },
@@ -122,27 +122,27 @@ function Section5() {
             desc: `Quy trình xử lý cảnh báo cháy trong hệ thống quản lý tòa nhà (BMS - Building Management System) là một phần quan trọng để đảm bảo an toàn và sự bảo vệ của tòa nhà và người dân trong đó. Yoolife AIoT tự hào là đơn vị hàng đầu trong lĩnh vực quản lý hệ thống quản lý tòa nhà, đảm bảo sự An toàn cho người dân cũng như hệ sinh thái các tòa nhà mà chúng tôi đã quản lý.`,
             children: [
               {
-                imageUrl: '/section-5-2-1.png',
+                imageUrl: '/v1/section-5-2-1.png',
                 title: 'Hệ thống báo cháy',
                 sub: 'Cảnh báo cháy',
               },
               {
-                imageUrl: '/section-5-1-2.png',
+                imageUrl: '/v1/section-5-1-2.png',
                 title: 'Ứng dụng Yoolife',
                 sub: 'Tiếp nhận thông tin',
               },
               {
-                imageUrl: '/section-5-2-3.png',
+                imageUrl: '/v1/section-5-2-3.png',
                 title: 'Hệ thống An Ninh',
                 sub: 'Mở cửa',
               },
               {
-                imageUrl: '/section-5-2-4.png',
+                imageUrl: '/v1/section-5-2-4.png',
                 title: 'Hệ thống Âm thanh',
                 sub: 'Thông báo sự cố',
               },
               {
-                imageUrl: '/section-5-2-5.png',
+                imageUrl: '/v1/section-5-2-5.png',
                 title: 'HT Điều hòa',
                 sub: 'Dừng quạt gió',
               },
@@ -154,27 +154,27 @@ function Section5() {
             desc: `Xử lý cảnh báo mất điện trong hệ thống BMS là quá trình quan trọng nhằm đảm bảo tính ổn định và an toàn cho tòa nhà. Đáp ứng nhanh chóng và khôi phục nguồn điện là yếu tố quyết định để duy trì hoạt động bình thường và đảm bảo sự an toàn của cư dân và tài sản.`,
             children: [
               {
-                imageUrl: '/section-5-3-1.png',
+                imageUrl: '/v1/section-5-3-1.png',
                 title: 'HT Phân phối điện',
                 sub: 'Báo mất điện',
               },
               {
-                imageUrl: '/section-5-1-2.png',
+                imageUrl: '/v1/section-5-1-2.png',
                 title: 'Ứng dụng Yoolife',
                 sub: 'Tiếp nhận thông tin',
               },
               {
-                imageUrl: '/section-5-3-3.png',
+                imageUrl: '/v1/section-5-3-3.png',
                 title: 'HT Phân phối điện',
                 sub: 'Đk tải liên động',
               },
               {
-                imageUrl: '/section-5-1-4.png',
+                imageUrl: '/v1/section-5-1-4.png',
                 title: 'HT Chiếu sáng',
                 sub: 'Bật đèn',
               },
               {
-                imageUrl: '/section-5-1-5.png',
+                imageUrl: '/v1/section-5-1-5.png',
                 title: 'HT Điều hòa thông gió',
                 sub: 'Khởi động lại máy móc',
               },
@@ -199,9 +199,9 @@ function Section5() {
                 ))}
               </div>
             </div>
-            <p className="text-justify text-[1.25rem] font-[300] leading-[2] text-gray-50">
+            <div className="text-justify text-[1.25rem] font-[300] leading-[2] text-gray-50">
               {item.desc}
-            </p>
+            </div>
           </div>
         ))}
       </div>
@@ -210,17 +210,17 @@ function Section5() {
         <div className="mb-9 text-[1.375rem] font-[700] text-green2">
           Quản trị Năng Lượng
         </div>
-        <p className="text-justify text-[1.25rem] font-[300] leading-[2] text-gray-50">
+        <div className="text-justify text-[1.25rem] font-[300] leading-[2] text-gray-50">
           Quản trị năng lượng trong quản lý tòa nhà là việc tối ưu hóa việc sử
           dụng điện, nước, và hệ thống làm mát. Điều này bao gồm giám sát, đo
           đạc, tối ưu hóa thiết bị, quản lý nhiệt độ, chi phí và sử dụng nguồn
           tái tạo. Mục tiêu là tiết kiệm năng lượng, giảm lãng phí, và tạo môi
           trường sống hiệu quả và bền vững.
-        </p>
+        </div>
         <div className="relative mx-auto">
           <div className="relative">
             <Image
-              src="/section-5-combined-2.png"
+              src="/v1/section-5-combined-2.png"
               alt=""
               width={1200}
               height={0}
@@ -249,28 +249,28 @@ function Section5() {
             <div className="mr-2 mt-0.5 flex h-6 w-6 flex-shrink-0 items-center justify-center self-baseline rounded-full bg-gray-50 font-[600] lg:hidden">
               1
             </div>
-            <p className="text-justify text-[1.1875rem] font-[300] leading-[1.5] text-gray-50">
+            <div className="text-justify text-[1.1875rem] font-[300] leading-[1.5] text-gray-50">
               Giám sát 24/7 định mức tiêu thụ + Cảnh báo Ai khi vượt ngưỡng tiêu
               thụ.
-            </p>
+            </div>
           </div>
           <div className="static right-0 top-[calc(100%*150/635.414)] mb-6 flex lg:absolute lg:mb-0 lg:max-w-[calc(100%*300/1184)]">
             <div className="mr-2 mt-0.5 flex h-6 w-6 flex-shrink-0 items-center justify-center self-baseline rounded-full bg-gray-50 font-[600] lg:hidden">
               2
             </div>
-            <p className="text-justify text-[1.1875rem] font-[300] leading-[1.5] text-gray-50">
+            <div className="text-justify text-[1.1875rem] font-[300] leading-[1.5] text-gray-50">
               Tối ưu chi phí tiêu thụ Điện, nước hàng tháng dựa trên báo cáo
               thống kê hàng tháng.
-            </p>
+            </div>
           </div>
           <div className="static left-0 top-[calc(100%*400/635.414)] mb-6 flex lg:absolute lg:mb-0 lg:max-w-[calc(100%*200/1184)]">
             <div className="mr-2 mt-0.5 flex h-6 w-6 flex-shrink-0 items-center justify-center self-baseline rounded-full bg-gray-50 font-[600] lg:hidden">
               3
             </div>
-            <p className="text-justify text-[1.1875rem] font-[300] leading-[1.5] text-gray-50">
+            <div className="text-justify text-[1.1875rem] font-[300] leading-[1.5] text-gray-50">
               Thống kê chi tiết chỉ số Điện năng, Chi phí hóa đơn, Cài đặt định
               mức.
-            </p>
+            </div>
           </div>
         </div>
       </div>
@@ -279,15 +279,15 @@ function Section5() {
         <div className="mb-9 text-[1.375rem] font-[700] text-green2">
           Tự động hóa
         </div>
-        <p className="text-justify text-[1.25rem] font-[300] leading-[2] text-gray-50">
+        <div className="text-justify text-[1.25rem] font-[300] leading-[2] text-gray-50">
           Tự động hóa đóng vai trò quan trọng trong quản lý tòa nhà, mang lại sự
           tiện ích, hiệu quả và an toàn. Bằng cách áp dụng các hệ thống tự động
           hóa, quản lý tòa nhà có khả năng tự động điều chỉnh và kiểm soát các
           hoạt động hàng ngày như hệ thống điện, nước, chiếu sáng, và làm mát.
-        </p>
-        <p className="mt-6 text-justify text-[1.25rem] font-[300] leading-[2] text-gray-50">
+        </div>
+        <div className="mt-6 text-justify text-[1.25rem] font-[300] leading-[2] text-gray-50">
           Các lợi ích của tự động hóa trong quản lý tòa nhà bao gồm:
-        </p>
+        </div>
         <div className="relative mt-8 flex flex-col flex-wrap lg:flex-row">
           {[
             'Tiết kiệm năng lượng và chi phí',
@@ -301,7 +301,7 @@ function Section5() {
               key={item}
             >
               <RadioSvg className="h-6 w-6" />
-              <p className="ml-2 text-[1.25rem] font-[300]">{item}</p>
+              <div className="ml-2 text-[1.25rem] font-[300]">{item}</div>
             </div>
           ))}
         </div>
@@ -310,15 +310,15 @@ function Section5() {
           <div className="flex max-w-full snap-x snap-mandatory justify-between gap-8 overflow-x-auto scroll-smooth scrollbar-thin">
             {[
               {
-                imageUrl: '/section-5-keangnam.png',
+                imageUrl: '/v1/section-5-keangnam.png',
                 title: 'Dự án Keangnam',
               },
               {
-                imageUrl: '/section-5-sapphire.png',
+                imageUrl: '/v1/section-5-sapphire.png',
                 title: 'The Sapphire Residence Hạ Long',
               },
               {
-                imageUrl: '/section-4-lotte.png',
+                imageUrl: '/v1/section-4-lotte.png',
                 title: 'Lotte Mall Tây Hồ',
               },
             ].map((item, index) => (
@@ -353,7 +353,7 @@ function Section5() {
           <Image
             width={1240}
             height={0}
-            src="/section-5-monitors.png"
+            src="/v1/section-5-monitors.png"
             alt="section-5-monitors"
             quality={100}
             priority
@@ -389,11 +389,11 @@ function Section5() {
               className="mb-8 flex flex-nowrap text-gray-50"
             >
               <RadioSvg className="mt-2 h-6 w-6 flex-shrink-0" />
-              <p className="ml-2 text-justify text-[1.25rem] font-[300] leading-[2]">
+              <div className="ml-2 text-justify text-[1.25rem] font-[300] leading-[2]">
                 <b className="whitespace-nowrap">{item.label}</b>
                 {`: `}
                 {item.desc}
-              </p>
+              </div>
             </div>
           ))}
         </div>

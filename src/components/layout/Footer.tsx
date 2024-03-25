@@ -6,9 +6,9 @@ import {
   MapOutlinedSvg,
   PhoneOutlinedSvg,
   TiktokFillSvg,
-  TwitterFillSvg,
   YooLogoSvg,
   YooSvg,
+  YoutubeFillSvg,
 } from 'src/components/icons';
 import { NImage as Image } from 'src/components/next/Image';
 
@@ -17,7 +17,7 @@ function Footer() {
     <footer className="relative mx-auto mt-[200px] flex min-h-screen flex-col">
       <div className="absolute bottom-0 left-0 right-0 -z-10 min-h-screen overflow-hidden">
         <Image
-          src="/footer-bg.png"
+          src="/v1/footer-bg.png"
           alt=""
           width={1920}
           height={0}
@@ -33,10 +33,10 @@ function Footer() {
         <h3 className="mb-[18px] text-center text-[2.8125rem] font-[700] leading-[1.2] text-gray-50">
           Liên hệ với chúng tôi
         </h3>
-        <p className="mb-11 text-center text-[1.875rem] font-[300] text-gray-50">
+        <div className="mb-11 text-center text-[1.875rem] font-[300] text-gray-50">
           Tham gia ngay bây giờ để ưu đãi đặc biệt và được tư vấn một cách tốt
           nhất!
-        </p>
+        </div>
         <form className="flex w-full flex-col items-center justify-center gap-6 xl:flex-row xl:px-12">
           <input
             type="email"
@@ -75,14 +75,14 @@ function Footer() {
             </div>
             <div className="mb-4 flex cursor-pointer items-center text-[1.0625rem] text-gray-400 hover:text-gray-300 hover:underline">
               <EmailOutlinedSvg className="h-[18px] w-[18px]" />
-              <a href="mailto:info@imaxhitech.com" className="ml-2.5">
-                <b>Email:</b> info@imaxhitech.com
+              <a href="mailto:info@yootek.vn" className="ml-2.5">
+                <b>Email:</b> info@yootek.vn
               </a>
             </div>
             <div className="mb-4 flex cursor-pointer items-center text-[1.0625rem] text-gray-400 hover:text-gray-300 hover:underline">
               <PhoneOutlinedSvg className="h-[18px] w-[18px]" />
-              <a href="tel:+842473011968" className="ml-2.5">
-                <b>Số điện thoại:</b> +84 24 7301 1968
+              <a href="tel:+84964714148" className="ml-2.5">
+                <b>Số điện thoại:</b> 0964 714 148
               </a>
             </div>
             <div className="mb-4 flex items-center text-gray-400">
@@ -92,22 +92,22 @@ function Footer() {
               </div>
             </div>
             <div className="flex flex-col gap-6 text-[1.0625rem]">
-              <p className="cursor-pointer text-gray-400 hover:text-gray-300 hover:underline">
+              <div className="cursor-pointer text-gray-400 hover:text-gray-300 hover:underline">
                 <b>Trụ sở chính:</b> Tầng 3, Tòa Audi, Số 8 Phạm Hùng, Mễ Trì,
                 Nam Từ Liêm, Hà Nội.
-              </p>
-              <p className="cursor-pointer text-gray-400 hover:text-gray-300 hover:underline">
-                <b>Showroom:</b> D02-L38, An Vuong Villa block, Duong Noi, Ha
-                Dong, Hà Nội.
-              </p>
-              <p className="cursor-pointer text-gray-400 hover:text-gray-300 hover:underline">
-                <b>HCM Office:</b> Block A1, 312 Lạc Long Quân, Quận 11, Thành
-                phố Hồ Chí Minh.
-              </p>
-              <p className="cursor-pointer text-gray-400 hover:text-gray-300 hover:underline">
+              </div>
+              <div className="cursor-pointer text-gray-400 hover:text-gray-300 hover:underline md:whitespace-nowrap">
+                <b>Showroom:</b> D02-L38, Khu An Vượng Villa, Khu đô thị Dương
+                Nội, Quận Hà Đông, Hà Nội.
+              </div>
+              <div className="cursor-pointer text-gray-400 hover:text-gray-300 hover:underline">
+                <b>HCM Office:</b> Tầng 10, Tòa Sài Gòn Paragon, Số 3 Nguyễn
+                Lương Bằng, Phường Tân Phú, Quận 7, TP. HCM.
+              </div>
+              <div className="cursor-pointer text-gray-400 hover:text-gray-300 hover:underline">
                 <b>Trung tâm R&D:</b> 5/167 Herring Rd, Macquarie Park, NSW
-                2113.
-              </p>
+                2113, Australia.
+              </div>
             </div>
           </div>
 
@@ -119,7 +119,7 @@ function Footer() {
               <div className="mb-4 flex cursor-pointer items-center text-gray-400 hover:text-gray-300 hover:underline">
                 <AppStoreFillSvg className="h-6 w-6" />
                 <a
-                  href="https://imaxhitech.com/nen-tang-imaxtek-iot-platform/"
+                  href="https://apps.apple.com/vn/app/yoolifeb/id1672904034?l=vi?l=vi"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="ml-2.5"
@@ -130,7 +130,7 @@ function Footer() {
               <div className="flex cursor-pointer items-center text-gray-400 hover:text-gray-300 hover:underline">
                 <AndroidFillSvg className="h-6 w-6" />
                 <a
-                  href="https://imaxhitech.com/nen-tang-imaxtek-iot-platform/"
+                  href="https://play.google.com/store/apps/details?id=com.imax.smartlife&pli=1"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="ml-2.5"
@@ -145,7 +145,7 @@ function Footer() {
             </div>
             <div className="flex flex-nowrap gap-6 text-gray-400">
               <a
-                href="https://imaxhitech.com/nen-tang-imaxtek-iot-platform/"
+                href="https://www.facebook.com/YoolifeAIoTPlatform"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex cursor-pointer items-center justify-center hover:text-blue-600"
@@ -153,25 +153,25 @@ function Footer() {
                 <FbFillSvg className="h-10 w-10" />
               </a>
               <a
-                href="https://imaxhitech.com/nen-tang-imaxtek-iot-platform/"
+                href="https://www.tiktok.com/@yoolifeaiotplatform"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex cursor-pointer items-center justify-center hover:text-gray-400"
+                className="flex cursor-pointer items-center justify-center hover:text-black"
               >
                 <TiktokFillSvg className="h-10 w-10" />
               </a>
               <a
-                href="https://imaxhitech.com/nen-tang-imaxtek-iot-platform/"
+                href="https://www.youtube.com/channel/UC--mSqwl0ClyGVE6Ud5N-Hg"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex cursor-pointer items-center justify-center hover:text-blue-300"
+                className="flex cursor-pointer items-center justify-center hover:text-red-500"
               >
-                <TwitterFillSvg className="h-11 w-11" />
+                <YoutubeFillSvg className="h-11 w-11" />
               </a>
             </div>
           </div>
 
-          <div className="">
+          <div className="hidden">
             <Image
               src="/online-gov-vn.png"
               alt=""
